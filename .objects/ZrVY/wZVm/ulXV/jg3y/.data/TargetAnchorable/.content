@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="sdedigF7VU6RUc-uKgMoYg" DesignTimeRectangle="500, 538, 100, 32" ElementType="Button" FriendlyName="'Learn how'" FullSelectorArgument="&lt;uia cls='Button' name='Learn how' /&gt;" FuzzySelectorArgument="&lt;uia cls='Button' name='Learn how' role='button' automationid='' check:fulltext='Learn how' /&gt;" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCamera_8wekyb3d8bbwe!App' title='Camera' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="Learn how" TextMethod="FullTextScrapping" TextSelector="&lt;uia role='button' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0B9rBMJ-ixUm5PWjPHJTKxg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="1ff7e2b29007d526b4c20d76649dbf0d.png" xmlns="">0aDhoefYQvEmIOU3qz-OLfQ</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "jg3yxoAxS0mHyhhEqjnVMQ",
+  "Reference": "eD-arT7MWki6AiS0bfo5Lg/jg3yxoAxS0mHyhhEqjnVMQ",
+  "ParentRef": "eD-arT7MWki6AiS0bfo5Lg/ulXVx3PQfU2_fVkrzTDGlA",
+  "Name": "Click 'Learn how'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-01-11T06:12:51.7440709Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-01-11T06:12:51.7440709Z"
+}

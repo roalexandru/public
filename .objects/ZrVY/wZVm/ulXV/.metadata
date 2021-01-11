@@ -1,0 +1,14 @@
+﻿{
+  "Id": "ulXVx3PQfU2_fVkrzTDGlA",
+  "Reference": "eD-arT7MWki6AiS0bfo5Lg/ulXVx3PQfU2_fVkrzTDGlA",
+  "ParentRef": "eD-arT7MWki6AiS0bfo5Lg/wZVmitr9gE6hW46mXOf5Xw",
+  "Name": "Use Application Camera",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2021-01-11T06:12:42.912926Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-01-11T06:12:42.912926Z"
+}

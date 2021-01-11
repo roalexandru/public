@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="tKX2OyH4mk2vzU7Bl9vxjQ" DesignTimeRectangle="616, 538, 100, 32" ElementType="Button" FriendlyName="'OK'" FullSelectorArgument="&lt;uia cls='Button' name='OK' /&gt;" FuzzySelectorArgument="&lt;uia cls='Button' name='OK' role='button' automationid='' check:fulltext='OK' /&gt;" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='Microsoft.WindowsCamera_8wekyb3d8bbwe!App' title='Camera' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="OK" TextMethod="FullTextScrapping" TextSelector="&lt;uia role='button' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0W-njszCfSUSP-MGZ_A0CEQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="22395323353f9af030e46c4b558683bb.png" xmlns="">02y5AxNylhUGzSIK3655RtA</imageRef>
+</TargetAnchorable>
