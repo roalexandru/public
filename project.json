@@ -1,13 +1,14 @@
 {
   "name": "demoProcess",
   "description": "Blank Process",
-  "main": "OldMain.xaml",
+  "main": "Main.xaml",
   "dependencies": {
     "CurrentDirLib": "[1.0.6]",
-    "UiPath.Excel.Activities": "[2.9.4-preview]",
+    "libLineL": "[2.0.2]",
+    "UiPath.Excel.Activities": "[2.9.5-beta.1345338]",
     "UiPath.Mail.Activities": "[1.10.0-preview]",
     "UiPath.System.Activities": "[20.10.1]",
-    "UiPath.UIAutomation.Activities": "[20.10.6]"
+    "UiPath.UIAutomation.Activities": "[20.10.8]"
   },
   "webServices": [],
   "entitiesStores": [],
