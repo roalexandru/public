@@ -1,0 +1,5592 @@
+[
+  {
+    "package": "Act! 365",
+    "activities": [
+      {
+        "activity": "Create Contact",
+        "description": "Create a contact in Act! 365."
+      },
+      {
+        "activity": "Create Interaction",
+        "description": "Create a Interaction in Act! 365."
+      },
+      {
+        "activity": "Create Opportunity",
+        "description": "Create a Opportunity in Act! 365."
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Act! 365."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Act! 365."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Act! 365."
+      },
+      {
+        "activity": "List All Campaigns",
+        "description": "List all the campaigns in Act! 365."
+      },
+      {
+        "activity": "List All Contacts",
+        "description": "List all the contacts in Act! 365."
+      },
+      {
+        "activity": "List All Groups",
+        "description": "List all the Groups in Act! 365."
+      },
+      {
+        "activity": "List All Interactions",
+        "description": "List all the Interactions in Act! 365."
+      },
+      {
+        "activity": "List All Opportunities",
+        "description": "List all the Opportunities in Act! 365."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all the records of an object in Act! 365."
+      },
+      {
+        "activity": "List Records",
+        "description": "Lists a page of records in Act! 365."
+      },
+      {
+        "activity": "Replace Interaction",
+        "description": "Replace an Interaction record in Act! 365."
+      },
+      {
+        "activity": "Update Contact (Basic)",
+        "description": "Updates a contact record in Act! 365."
+      },
+      {
+        "activity": "Update Opportunity",
+        "description": "Updates a basic Opportunity record in Act! 365."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Act! 365."
+      },
+      {
+        "activity": "Upsert Record",
+        "description": "Replaces a record in Act! 365."
+      }
+    ]
+  },
+  {
+    "package": "Amazon SageMaker",
+    "activities": [
+      {
+        "activity": "Get Inference",
+        "description": "Gets an inference from a selected SageMaker model. Consult your model's metadata within SageMaker for input and output formatting."
+      }
+    ]
+  },
+  {
+    "package": "Amazon Web Services",
+    "activities": [
+      {
+        "activity": "Add Role to Instance Profile",
+        "description": "Adds the specified IAM role to the specified instance profile. An instance profile can contain only one role."
+      },
+      {
+        "activity": "Add User To Group",
+        "description": "Adds the specified IAM user to the specified IAM group."
+      },
+      {
+        "activity": "Add/Remove Inline Policy",
+        "description": "Adds, updates or removes the specified inline policy document to / from the specified IAM identity (group, role, or user)."
+      },
+      {
+        "activity": "Amazon Web Services Scope",
+        "description": "Connects to Amazon Web Services (AWS) and provides a scope for other AWS activities."
+      },
+      {
+        "activity": "Attach/Detach Managed Policy",
+        "description": "Attaches or detaches the specified managed policy to / from the specified IAM identity (group, role, or user)."
+      },
+      {
+        "activity": "Change User Password",
+        "description": "Changes the password for the specified IAM user."
+      },
+      {
+        "activity": "Configure Logging for Bucket",
+        "description": "Configures the logging settings for the bucket."
+      },
+      {
+        "activity": "Configure Public Access to Bucket",
+        "description": "Configures the public access for a bucket."
+      },
+      {
+        "activity": "Configure Robot",
+        "description": "Connects the Robot in a given instance to UiPath Orchestrator."
+      },
+      {
+        "activity": "Copy Object",
+        "description": "Copies an object to another bucket."
+      },
+      {
+        "activity": "Create Bucket",
+        "description": "Creates a new S3 bucket. All public access to this bucket will be blocked by default."
+      },
+      {
+        "activity": "Create Group",
+        "description": "Creates a new IAM group for the current AWS account."
+      },
+      {
+        "activity": "Create Instance",
+        "description": "Creates a new instance."
+      },
+      {
+        "activity": "Create Instance from Launch Template",
+        "description": "Creates a new instance from a launch template."
+      },
+      {
+        "activity": "Create Managed Policy",
+        "description": "Creates a new managed policy for the current AWS account."
+      },
+      {
+        "activity": "Create Role",
+        "description": "Creates a new IAM role for the current AWS account."
+      },
+      {
+        "activity": "Create User",
+        "description": "Creates a new IAM user for the current AWS account."
+      },
+      {
+        "activity": "Delete Bucket",
+        "description": "Deletes a bucket."
+      },
+      {
+        "activity": "Delete Bucket Policy",
+        "description": "Deletes the current bucket policy."
+      },
+      {
+        "activity": "Delete Group",
+        "description": "Deletes the specified IAM group."
+      },
+      {
+        "activity": "Delete Managed Policy",
+        "description": "Deletes the specified managed policy, including all versions of the policy."
+      },
+      {
+        "activity": "Delete Multiple Objects",
+        "description": "Deletes multiple objects at once."
+      },
+      {
+        "activity": "Delete Role",
+        "description": "Deletes the specified IAM role."
+      },
+      {
+        "activity": "Delete Single Object",
+        "description": "Deletes the specified object."
+      },
+      {
+        "activity": "Delete User",
+        "description": "Deletes the specified IAM user."
+      },
+      {
+        "activity": "Download Object to File",
+        "description": "Downloads an object to a specified file."
+      },
+      {
+        "activity": "Empty Bucket",
+        "description": "Removes all the content of a bucket."
+      },
+      {
+        "activity": "For Each Group",
+        "description": "Performs an activity or a series of activities on each IAM group in the current AWS account that matches the filter criteria."
+      },
+      {
+        "activity": "For Each Managed Policy",
+        "description": "Performs an activity or a series of activities on each managed policy in the current AWS account that matches the filter criteria."
+      },
+      {
+        "activity": "For Each Object in Bucket",
+        "description": "Performs an activity or a series of activities on each object in a specified bucket."
+      },
+      {
+        "activity": "For Each Role",
+        "description": "Performs an activity or a series of activities on each IAM role in the current AWS account that matches the filter criteria."
+      },
+      {
+        "activity": "For Each User",
+        "description": "Performs an activity or a series of activities on each IAM user in the current AWS account that matches the filter criteria."
+      },
+      {
+        "activity": "For Each User Group",
+        "description": "Performs an activity or a series of activities on each IAM group that the specified IAM user belongs to."
+      },
+      {
+        "activity": "For Each User in Group",
+        "description": "Performs an activity or a series of activities on each IAM user that is in the specified IAM group."
+      },
+      {
+        "activity": "Get Bucket",
+        "description": "Gets information about a specific bucket."
+      },
+      {
+        "activity": "Get Bucket List",
+        "description": "Gets the list of buckets in a specific region."
+      },
+      {
+        "activity": "Get Bucket Policy",
+        "description": "Gets the bucket policy."
+      },
+      {
+        "activity": "Get Group",
+        "description": "Gets information about the specified IAM group."
+      },
+      {
+        "activity": "Get IAM Identities Attached to a Managed Policy",
+        "description": "Gets the IAM identities (group, role, or user) that the specified managed policy is attached to."
+      },
+      {
+        "activity": "Get IAM Identity Inline Policies",
+        "description": "Gets the inline policies that are embedded in the specified IAM identity (group, role, or user)."
+      },
+      {
+        "activity": "Get IAM Identity Managed Policies",
+        "description": "Gets the managed policies that are attached to the specified IAM identity (group, role, or user)."
+      },
+      {
+        "activity": "Get Instance by ID",
+        "description": "Gets the details of the specified instance."
+      },
+      {
+        "activity": "Get Instance List",
+        "description": "Gets the list of instances matching the filter criteria."
+      },
+      {
+        "activity": "Get Managed Policy",
+        "description": "Gets information about the specified managed policy."
+      },
+      {
+        "activity": "Get Object",
+        "description": "Retrieves the details of the specified object."
+      },
+      {
+        "activity": "Get Object ACL",
+        "description": "Gets the access control list (ACL) permissions for an object."
+      },
+      {
+        "activity": "Get Role",
+        "description": "Gets information about the specified IAM role."
+      },
+      {
+        "activity": "Get User",
+        "description": "Gets information about the specified IAM user."
+      },
+      {
+        "activity": "Reboot Instance",
+        "description": "Reboots an instance."
+      },
+      {
+        "activity": "Remove Role from Instance Profile",
+        "description": "Removes the specified IAM role from the specified instance profile."
+      },
+      {
+        "activity": "Remove User From Group",
+        "description": "Removes the specified IAM user from the specified IAM group."
+      },
+      {
+        "activity": "Run Power Shell Command",
+        "description": "Runs a PowerShell command on a EC2 instance."
+      },
+      {
+        "activity": "Set Bucket Policy",
+        "description": "Sets the bucket policy."
+      },
+      {
+        "activity": "Set Object ACL",
+        "description": "Sets the access control list (ACL) permissions for an object."
+      },
+      {
+        "activity": "Start Instance",
+        "description": "Starts an instance."
+      },
+      {
+        "activity": "Stop Instance",
+        "description": "Stops an instance."
+      },
+      {
+        "activity": "Terminate Instance",
+        "description": "Terminates an instance."
+      },
+      {
+        "activity": "Update Bucket Properties",
+        "description": "Updates the properties of an existing bucket."
+      },
+      {
+        "activity": "Update Group",
+        "description": "Updates the specified IAM group."
+      },
+      {
+        "activity": "Update Managed Policy",
+        "description": "Updates the specified managed policy."
+      },
+      {
+        "activity": "Update Role",
+        "description": "Updates the specified IAM role."
+      },
+      {
+        "activity": "Update User",
+        "description": "Updates the specified IAM user."
+      },
+      {
+        "activity": "Upload Object from File",
+        "description": "Uploads a file to a bucket."
+      },
+      {
+        "activity": "Upload Objects from Folder",
+        "description": "Uploads an entire folder to a bucket."
+      }
+    ]
+  },
+  {
+    "package": "Amazon WorkSpaces",
+    "activities": [
+      {
+        "activity": "Amazon Workspaces Scope",
+        "description": "Connects to Amazon Web Services and provides a scope for Amazon WorkSpaces activities."
+      },
+      {
+        "activity": "Create Workspace",
+        "description": "Creates a new WorkSpace."
+      },
+      {
+        "activity": "For Each Workspace",
+        "description": "Performs an activity or a series of activities on each WorkSpace matching the filter criteria."
+      },
+      {
+        "activity": "Get Workspace Info",
+        "description": "Gets details about a specified WorkSpace."
+      },
+      {
+        "activity": "Migrate Workspace",
+        "description": "Migrates a WorkSpace to a new bundle while retaining the data on the user volume disk."
+      },
+      {
+        "activity": "Reboot Workspace",
+        "description": "Reboots a WorkSpace."
+      },
+      {
+        "activity": "Rebuild Workspace",
+        "description": "Rebuilds a WorkSpace."
+      },
+      {
+        "activity": "Remove Workspace",
+        "description": "Removes a WorkSpace. Its user will be disconnected from the WorkSpace and the WorkSpace will be permanently removed."
+      },
+      {
+        "activity": "Restore Workspace",
+        "description": "Restores a WorkSpace to its last known healthy state."
+      },
+      {
+        "activity": "Start Workspace",
+        "description": "Starts a WorkSpace."
+      },
+      {
+        "activity": "Stop Workspace",
+        "description": "Stops a WorkSpace."
+      },
+      {
+        "activity": "Update Workspace",
+        "description": "Updates a WorkSpace"
+      }
+    ]
+  },
+  {
+    "package": "Azure",
+    "activities": [
+      {
+        "activity": "Append to Blob",
+        "description": "Appends a block from a specified file to an existing Append blob."
+      },
+      {
+        "activity": "Attach VM Data Disk",
+        "description": "Attaches an existing data disk to the specified virtual machine."
+      },
+      {
+        "activity": "Azure Scope",
+        "description": "Connects to Azure and provides a scope for other Azure activities."
+      },
+      {
+        "activity": "Configure Robot",
+        "description": "Connects the Robot in a given virtual machine to UiPath Orchestrator."
+      },
+      {
+        "activity": "Copy Blob",
+        "description": "Copies a blob to another blob container within the storage account."
+      },
+      {
+        "activity": "Create Blob Container",
+        "description": "Creates a new blob container under the specified storage account or updates an existing one."
+      },
+      {
+        "activity": "Create IP Configuration",
+        "description": "Creates or updates an IP configuration."
+      },
+      {
+        "activity": "Create Network Interface",
+        "description": "Creates or updates a network interface."
+      },
+      {
+        "activity": "Create NSG",
+        "description": "Creates or updates a network security group."
+      },
+      {
+        "activity": "Create Resource Group",
+        "description": "Creates a new resource group or updates an existing one."
+      },
+      {
+        "activity": "Create Security Rule",
+        "description": "Creates or updates a security rule in the specified network security group."
+      },
+      {
+        "activity": "Create Storage Account",
+        "description": "Creates a new storage account or updates an existing one."
+      },
+      {
+        "activity": "Create Table",
+        "description": "Creates a new table under the specified storage account."
+      },
+      {
+        "activity": "Create VM",
+        "description": "Creates a new virtual machine from a disk or image."
+      },
+      {
+        "activity": "Delete Blob",
+        "description": "Deletes the specified blob."
+      },
+      {
+        "activity": "Delete Blob Container",
+        "description": "Deletes the specified blob container."
+      },
+      {
+        "activity": "Delete IP Configuration",
+        "description": "Deletes an IP configuration."
+      },
+      {
+        "activity": "Delete Network Interface",
+        "description": "Deletes a network interface."
+      },
+      {
+        "activity": "Delete NSG",
+        "description": "Deletes a network security group."
+      },
+      {
+        "activity": "Delete Resource Group",
+        "description": "Permanently deletes the specified resource group and all the resources in it."
+      },
+      {
+        "activity": "Delete Rows",
+        "description": "Deletes the specified rows."
+      },
+      {
+        "activity": "Delete Secret",
+        "description": "Deletes a secret in a key vault."
+      },
+      {
+        "activity": "Delete Security Rule",
+        "description": "Deletes a security rule."
+      },
+      {
+        "activity": "Delete Storage Account",
+        "description": "Deletes the specified storage account."
+      },
+      {
+        "activity": "Delete Table",
+        "description": "Deletes the specified table."
+      },
+      {
+        "activity": "Delete VM",
+        "description": "Deletes the specified virtual machine."
+      },
+      {
+        "activity": "Detach VM Data Disk",
+        "description": "Detaches the specified data disk from the virtual machine."
+      },
+      {
+        "activity": "Download Blob to File",
+        "description": "Download a blob to a local file"
+      },
+      {
+        "activity": "For Each Blob Container",
+        "description": "Performs an activity or a series of activities on each blob container in the specified storage account."
+      },
+      {
+        "activity": "For Each Blob in Container",
+        "description": "Performs an activity or a series of activities on each blob in a specified container."
+      },
+      {
+        "activity": "For Each Network Interface",
+        "description": "Performs an activity or a series of activities on each network interface within the current subscription matching the filter criteria."
+      },
+      {
+        "activity": "For Each NSG",
+        "description": "Performs an activity or a series of activities on each network security group within the current subscription matching the filter criteria."
+      },
+      {
+        "activity": "For Each Row in Table",
+        "description": "Performs an activity or a series of activities on each row matching the filter criteria."
+      },
+      {
+        "activity": "For Each Security Alert",
+        "description": "Performs an activity or a series of activities on each security alert matching the filter criteria."
+      },
+      {
+        "activity": "Get Blob",
+        "description": "Retrieves the details about a specified blob."
+      },
+      {
+        "activity": "Get Blob Container",
+        "description": "Retrieves the details for the specified blob container."
+      },
+      {
+        "activity": "Get Blob Containers List",
+        "description": "Retrieves the\u00a0blob containers from the specified storage account."
+      },
+      {
+        "activity": "Get Blob List",
+        "description": "Retrieves the list of blobs in the specified container."
+      },
+      {
+        "activity": "Get Disk",
+        "description": "Retrieves the details of a specified disk."
+      },
+      {
+        "activity": "Get Disk List",
+        "description": "Retrieves all disks in the current subscription."
+      },
+      {
+        "activity": "Get Network Interface",
+        "description": "Gets the details of a network interface."
+      },
+      {
+        "activity": "Get NSG",
+        "description": "Gets the details of a network security group."
+      },
+      {
+        "activity": "Get NSG Network Interface List",
+        "description": "Gets all network interfaces associated with a network security group."
+      },
+      {
+        "activity": "Get RDP Files",
+        "description": "Retrieves the RDP (Remote Desktop Protocol) file(s) for a specified virtual machine."
+      },
+      {
+        "activity": "Get Resource Group",
+        "description": "Retrieves the details of a resource group."
+      },
+      {
+        "activity": "Get Resource Group List",
+        "description": "Retrieves the list of resource groups in the current subscription."
+      },
+      {
+        "activity": "Get Row",
+        "description": "Retrieves the specified table row."
+      },
+      {
+        "activity": "Get Rows By Filter",
+        "description": "Retrieves the list of rows matching the filter criteria."
+      },
+      {
+        "activity": "Get Secrets",
+        "description": "Retrieves a list of secrets."
+      },
+      {
+        "activity": "Get Security Alert",
+        "description": "Gets the details of a security alert at subscription or resource group level."
+      },
+      {
+        "activity": "Get Security Rule",
+        "description": "Gets the details of a security rule."
+      },
+      {
+        "activity": "Get Security Rule List",
+        "description": "Gets all security rules in a network security group."
+      },
+      {
+        "activity": "Get Storage Account",
+        "description": "Retrieves the details of the specified storage account."
+      },
+      {
+        "activity": "Get Storage Account Key",
+        "description": "Retrieves the storage account key for the specified storage account."
+      },
+      {
+        "activity": "Get Storage Account List",
+        "description": "Gets a list of storage accounts. If the resource group name is set, it only retrieves a list of the storage accounts in the specified resource group."
+      },
+      {
+        "activity": "Get Table",
+        "description": "Retrieves the details for the specified table."
+      },
+      {
+        "activity": "Get Table List",
+        "description": "Retrieves the tables from the specified storage account."
+      },
+      {
+        "activity": "Get VM",
+        "description": "Retrieves the details of a specified virtual machine."
+      },
+      {
+        "activity": "Get VM Custom Image",
+        "description": "Retrieves the details about a custom virtual machine image."
+      },
+      {
+        "activity": "Get VM Custom Images List",
+        "description": "Retrieves a list of custom virtual machines images within the current subscription."
+      },
+      {
+        "activity": "Get VM Disk List",
+        "description": "Retrieves all disks associated with the specified virtual machine."
+      },
+      {
+        "activity": "Get VM Image by Publisher",
+        "description": "Retrieves the details about a custom virtual machine image from a specified publisher."
+      },
+      {
+        "activity": "Get VM List",
+        "description": "Retrieves a list of virtual machines within the current subscription."
+      },
+      {
+        "activity": "Get VM Network Interface List",
+        "description": "Gets all network interfaces associated with a virtual machine."
+      },
+      {
+        "activity": "Get VM NSG List",
+        "description": "Gets all network security groups associated with a virtual machine."
+      },
+      {
+        "activity": "Insert Rows",
+        "description": "Inserts new rows in the specified table or replaces them if they already exist."
+      },
+      {
+        "activity": "Regenerate Storage Account Key",
+        "description": "Generates a new storage account key."
+      },
+      {
+        "activity": "Restart VM",
+        "description": "Restarts a virtual machine."
+      },
+      {
+        "activity": "Run Script in VM",
+        "description": "Runs a script on the specified virtual machine."
+      },
+      {
+        "activity": "Set Blob Tier",
+        "description": "Sets the access tier on a blob."
+      },
+      {
+        "activity": "Set Security Alert State",
+        "description": "Reactivates or dismisses a security alert."
+      },
+      {
+        "activity": "Shutdown VM",
+        "description": "Shuts down the Operating System of the specified virtual machine."
+      },
+      {
+        "activity": "Start VM",
+        "description": "Starts the specified virtual machine."
+      },
+      {
+        "activity": "Stop VM",
+        "description": "Stops a virtual machine by deallocating the hardware and network resources Azure previously provisioned for it."
+      },
+      {
+        "activity": "Upload Blob from File",
+        "description": "Creates a new blob or updates an existing one from the specified file."
+      }
+    ]
+  },
+  {
+    "package": "Azure Active Directory",
+    "activities": [
+      {
+        "activity": "Add Group to Lifecycle Policy",
+        "description": "Adds a group to a lifecycle policy."
+      },
+      {
+        "activity": "Add Member to Group",
+        "description": "Adds a member to a group."
+      },
+      {
+        "activity": "Add Member to Role",
+        "description": "Adds a user or a service principal to a directory role."
+      },
+      {
+        "activity": "Add Owner to Group",
+        "description": "Adds an owner to a group."
+      },
+      {
+        "activity": "Assign License",
+        "description": "Assigns a license for a user."
+      },
+      {
+        "activity": "Azure AD Application Scope",
+        "description": "Provides an application permission scope for other Azure Active Directory activities. Activities executed using an application scope are executed on behalf of an application."
+      },
+      {
+        "activity": "Azure AD Delegated Scope",
+        "description": "Provides a delegated permission scope for other Azure Active Directory activities. Activities executed using a delegated scope are always executed on behalf of an authenticated user."
+      },
+      {
+        "activity": "Create Assigned Group",
+        "description": "Creates a new assigned group in Azure Active Directory."
+      },
+      {
+        "activity": "Create Lifecycle Policy",
+        "description": "Creates a lifecycle policy for an Office 365 group."
+      },
+      {
+        "activity": "Create User",
+        "description": "Creates a new user account in Azure Active Directory."
+      },
+      {
+        "activity": "Delete Group",
+        "description": "Deletes a group from Azure Active Directory."
+      },
+      {
+        "activity": "Delete Lifecycle Policy",
+        "description": "Deletes a lifecycle policy."
+      },
+      {
+        "activity": "Delete User",
+        "description": "Deletes a user from Azure Active Directory."
+      },
+      {
+        "activity": "For Each Direct Report",
+        "description": "Performs an activity or a series of activities on each direct report of a user."
+      },
+      {
+        "activity": "For Each Group",
+        "description": "Gets detailed information about the groups matching a filter criteria."
+      },
+      {
+        "activity": "For Each Group in Group",
+        "description": "Performs an activity or a series of activities on each group which is a direct member of a group."
+      },
+      {
+        "activity": "For Each Lifecycle Policy",
+        "description": "Performs an activity or a series of activities on each lifecycle policy."
+      },
+      {
+        "activity": "For Each Parent Group",
+        "description": "Performs an activity or a series of activities on each parent group of the specified group."
+      },
+      {
+        "activity": "For Each Role",
+        "description": "Performs an activity or a series of activities on each directory role that is activated in the tenant."
+      },
+      {
+        "activity": "For Each User",
+        "description": "Performs an activity or a series of activities on each user matching a filter criteria."
+      },
+      {
+        "activity": "For Each User Group",
+        "description": "Performs an activity or a series of activities on each group the user is a direct member of."
+      },
+      {
+        "activity": "For Each User in Group",
+        "description": "Performs an activity or a series of activities on each user which is a direct member of a group."
+      },
+      {
+        "activity": "For Each User in Group Owners",
+        "description": "Performs an activity or a series of activities on each user which is an owner of the group."
+      },
+      {
+        "activity": "For Each User in Role",
+        "description": "Performs an activity or a series of activities on each user that is a member of a directory role."
+      },
+      {
+        "activity": "For Each User Role",
+        "description": "Performs an activity or a series of activities on each directory role the user is a member of."
+      },
+      {
+        "activity": "Get Group by Id",
+        "description": "Gets detailed information about a group."
+      },
+      {
+        "activity": "Get Group by Name",
+        "description": "Gets detailed information about the first group having the specified displayed name."
+      },
+      {
+        "activity": "Get Manager",
+        "description": "Gets the user's manager."
+      },
+      {
+        "activity": "Get User",
+        "description": "Gets detailed information about a user."
+      },
+      {
+        "activity": "Group Exists",
+        "description": "Checks if a group exists in Azure Active Directory."
+      },
+      {
+        "activity": "Is Group in Lifecycle Policy",
+        "description": "Checks whether a group is member of a lifecycle policy."
+      },
+      {
+        "activity": "Is Member in Role",
+        "description": "Checks whether a given user or service principal is in a directory role."
+      },
+      {
+        "activity": "Is Member of Group",
+        "description": "Checks whether a given object belongs to a group."
+      },
+      {
+        "activity": "Is Owner of Group",
+        "description": "Checks whether a given object is an owner of a group."
+      },
+      {
+        "activity": "Remove Group from Lifecycle Policy",
+        "description": "Removes a group from a lifecycle policy."
+      },
+      {
+        "activity": "Remove License",
+        "description": "Removes a license for a user."
+      },
+      {
+        "activity": "Remove Member from Group",
+        "description": "Removes a member from a group."
+      },
+      {
+        "activity": "Remove Member from Role",
+        "description": "Removes a user or a service principal from a directory role."
+      },
+      {
+        "activity": "Remove Owner from Group",
+        "description": "Removes an owner from a group."
+      },
+      {
+        "activity": "Reset Password",
+        "description": "Resets the password of a user account."
+      },
+      {
+        "activity": "Set Manager",
+        "description": "Sets the user's manager."
+      },
+      {
+        "activity": "Update Group",
+        "description": "Updates the properties of an existing group."
+      },
+      {
+        "activity": "Update Lifecycle Policy",
+        "description": "Updates an existing lifecycle policy."
+      },
+      {
+        "activity": "Update User",
+        "description": "Updates the properties of an existing user."
+      },
+      {
+        "activity": "User Exists",
+        "description": "Checks if a user exists in Azure Active Directory."
+      }
+    ]
+  },
+  {
+    "package": "Azure Virtual Desktop",
+    "activities": [
+      {
+        "activity": "Add Virtual Machine to Host Pool",
+        "description": "Adds an existing Azure virtual machine to the specified host pool."
+      },
+      {
+        "activity": "Assign Users and Groups to Application Group",
+        "description": "Assigns users and groups to an application group."
+      },
+      {
+        "activity": "Azure Virtual Desktop Scope",
+        "description": "Connects to Azure Virtual Desktop and provides a scope for other Azure Virtual Desktop activities."
+      },
+      {
+        "activity": "Create Host Pool",
+        "description": "Creates a new host pool. A default desktop application group is created by the activity."
+      },
+      {
+        "activity": "Create Workspace",
+        "description": "Creates a new workspace."
+      },
+      {
+        "activity": "Delete Host Pool",
+        "description": "Deletes a host pool."
+      },
+      {
+        "activity": "Delete Session Host",
+        "description": "Deletes a session host."
+      },
+      {
+        "activity": "Delete User Session",
+        "description": "Deletes (logs off) a user session."
+      },
+      {
+        "activity": "Delete Workspace",
+        "description": "Deletes a workspace."
+      },
+      {
+        "activity": "Disconnect User Session",
+        "description": "Disconnects a user session."
+      },
+      {
+        "activity": "For Each Application Group",
+        "description": "Performs an activity or a series of activities on each application group, in the current subscription, that matches the filter criteria."
+      },
+      {
+        "activity": "For Each Host Pool",
+        "description": "Performs an activity or a series of activities on each host pool in the current subscription."
+      },
+      {
+        "activity": "For Each Session Host",
+        "description": "Performs an activity or a series of activities on each session host within the specified host pool."
+      },
+      {
+        "activity": "For Each User Session",
+        "description": "Performs an activity or a series of activities on each user session within a specified session host."
+      },
+      {
+        "activity": "For Each Workspace",
+        "description": "Performs an activity or a series of activities on each workspace, in the current subscription, that matches the filter criteria."
+      },
+      {
+        "activity": "Get Application Group",
+        "description": "Gets details about an application group."
+      },
+      {
+        "activity": "Get Host Pool",
+        "description": "Gets details about a host pool."
+      },
+      {
+        "activity": "Get Session Host",
+        "description": "Gets details about a session host within the specified host pool."
+      },
+      {
+        "activity": "Get Workspace",
+        "description": "Gets details about a workspace."
+      },
+      {
+        "activity": "Remove Users and Groups from Application Group",
+        "description": "Removes users and groups from an application group."
+      },
+      {
+        "activity": "Send Message to User Session",
+        "description": "Sends a message to a user session."
+      },
+      {
+        "activity": "Update Host Pool",
+        "description": "Updates a host pool."
+      },
+      {
+        "activity": "Update Session Host",
+        "description": "Updates a session host."
+      },
+      {
+        "activity": "Update Workspace",
+        "description": "Updates a workspace."
+      }
+    ]
+  },
+  {
+    "package": "BambooHR",
+    "activities": [
+      {
+        "activity": "Create employee (basic)",
+        "description": "Create a basic employee record in BambooHR."
+      },
+      {
+        "activity": "Create record",
+        "description": "Creates a new record in BambooHR."
+      },
+      {
+        "activity": "Get employee",
+        "description": "Retrieves an employee's record in BambooHR."
+      },
+      {
+        "activity": "Invoke method",
+        "description": "Invokes a BambooHR API method."
+      },
+      {
+        "activity": "List all records",
+        "description": "Lists all the records of an object in BambooHR."
+      },
+      {
+        "activity": "List records",
+        "description": "Lists a page of records in BambooHR."
+      },
+      {
+        "activity": "Search employees directory",
+        "description": "Get a list of employees from BambooHR. The employee directory feature needs to be enabled in your account to use this activity"
+      },
+      {
+        "activity": "Update employee (basic)",
+        "description": "Updates a basic employee record in BambooHR."
+      },
+      {
+        "activity": "Update record",
+        "description": "Updates a record in BambooHR."
+      }
+    ]
+  },
+  {
+    "package": "Box",
+    "activities": [
+      {
+        "activity": "Cancel Sign Request",
+        "description": "Cancels sign request by sign request ID"
+      },
+      {
+        "activity": "Copy File",
+        "description": "Copies a file"
+      },
+      {
+        "activity": "Copy Folder",
+        "description": "Copies a folder"
+      },
+      {
+        "activity": "Create Folder",
+        "description": "Creates a folder"
+      },
+      {
+        "activity": "Create Sign Request",
+        "description": "Creates a SignRequest"
+      },
+      {
+        "activity": "Delete File",
+        "description": "Deletes a File"
+      },
+      {
+        "activity": "Delete Folder",
+        "description": "Deletes a folder"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Box."
+      },
+      {
+        "activity": "Download File",
+        "description": "Downloads a file"
+      },
+      {
+        "activity": "Get File Info",
+        "description": "Gets info for a file."
+      },
+      {
+        "activity": "Get Folder Info",
+        "description": "Gets folder meta data"
+      },
+      {
+        "activity": "Get Folder Items",
+        "description": "Gets folder items"
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Box."
+      },
+      {
+        "activity": "Get Sign Request",
+        "description": "Pulls active sign request (non-deleted) details"
+      },
+      {
+        "activity": "Get Versions",
+        "description": "Get Versions of a file"
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Box."
+      },
+      {
+        "activity": "Invoke Method",
+        "description": "Invokes a Box API Method"
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records in Box."
+      },
+      {
+        "activity": "Resend Sign Request",
+        "description": "Resends sign request by sign request ID"
+      },
+      {
+        "activity": "Search for Content",
+        "description": "Searches for Content"
+      },
+      {
+        "activity": "Upload File",
+        "description": "Uploads a file"
+      },
+      {
+        "activity": "Upload File Version",
+        "description": "Uploads a version of a file"
+      },
+      {
+        "activity": "Upsert Record",
+        "description": "Replaces a record in Box."
+      }
+    ]
+  },
+  {
+    "package": "CampaignMonitor",
+    "activities": [
+      {
+        "activity": "Add Subscriber",
+        "description": "Adds a subscriber to a list in Campaign Monitor."
+      },
+      {
+        "activity": "Create Campaign",
+        "description": "Create a campaign in Campaign Monitor."
+      },
+      {
+        "activity": "Create Client",
+        "description": "Creates a Client in Campaign Monitor."
+      },
+      {
+        "activity": "Create List",
+        "description": "Create a list in Campaign Monitor."
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Campaign Monitor."
+      },
+      {
+        "activity": "Get Campaign Summary",
+        "description": "Retrieves a campaign's summary from Campaign Monitor."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Campaign Monitor."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Campaign Monitor."
+      },
+      {
+        "activity": "Invoke Operation",
+        "description": "Invokes a Campaign Monitor operation."
+      },
+      {
+        "activity": "List all Clients",
+        "description": "List all the clients in Campaign Monitor."
+      },
+      {
+        "activity": "List all Records",
+        "description": "Lists all the records of an object in Campaign Monitor."
+      },
+      {
+        "activity": "Replace List",
+        "description": "Replaces a list record in Campaign Monitor."
+      },
+      {
+        "activity": "Replace Subscriber",
+        "description": "Replaces a subscriber record in Campaign Monitor."
+      },
+      {
+        "activity": "Send Campaign",
+        "description": "Send a campaign from Campaign Monitor."
+      },
+      {
+        "activity": "Send Preview Campaign",
+        "description": "Send a preview of campaign from Campaign Monitor."
+      },
+      {
+        "activity": "Upsert Record",
+        "description": "Replaces a record in Campaign Monitor."
+      }
+    ]
+  },
+  {
+    "package": "Cisco Webex Teams",
+    "activities": [
+      {
+        "activity": "Delete message",
+        "description": "Deletes a message in Cisco Webex Teams"
+      },
+      {
+        "activity": "Delete record",
+        "description": "Deletes a record in Cisco Webex Teams"
+      },
+      {
+        "activity": "Find first message",
+        "description": "Retrieves the first message in Cisco Webex Teams"
+      },
+      {
+        "activity": "Find first record",
+        "description": "Retrieves the first record for your selected object in Cisco Webex Teams"
+      },
+      {
+        "activity": "Get message",
+        "description": "Retrieves a message in Cisco Webex Teams"
+      },
+      {
+        "activity": "Get my info",
+        "description": "Retrieves authenticated user's information"
+      },
+      {
+        "activity": "Get record",
+        "description": "Retrieves a record in Cisco Webex Teams"
+      },
+      {
+        "activity": "Get user",
+        "description": "Retrieves a user in Cisco Webex Teams"
+      },
+      {
+        "activity": "Insert record",
+        "description": "Inserts a record in Cisco Webex Teams"
+      },
+      {
+        "activity": "Invite new user",
+        "description": "Invites a new user in Cisco Webex Teams. Only administrators can invite or create a new user"
+      },
+      {
+        "activity": "List all messages",
+        "description": "Lists all messages in Cisco Webex Teams"
+      },
+      {
+        "activity": "List all records",
+        "description": "Lists all records for an object in Cisco Webex Teams"
+      },
+      {
+        "activity": "List messages",
+        "description": "Lists a page of messages in Cisco Webex Teams"
+      },
+      {
+        "activity": "List records",
+        "description": "Lists a page of records in Cisco Webex Teams"
+      },
+      {
+        "activity": "List users",
+        "description": "Lists a page of users in Cisco Webex Teams"
+      },
+      {
+        "activity": "Remove user",
+        "description": "Removes a person from the system. Only an administrator can remove a person"
+      },
+      {
+        "activity": "Send direct message",
+        "description": "Sends a direct message in Cisco Webex Teams"
+      },
+      {
+        "activity": "Send group message",
+        "description": "Sends a group message in Cisco Webex Teams"
+      },
+      {
+        "activity": "Update message",
+        "description": "Update a previously sent message in Cisco Webex Teams"
+      },
+      {
+        "activity": "Update record",
+        "description": "Updates a record in Cisco Webex Teams"
+      }
+    ]
+  },
+  {
+    "package": "Citrix",
+    "activities": [
+      {
+        "activity": "Add Tag to VM",
+        "description": "Add a tag to the specified virtual machine or template."
+      },
+      {
+        "activity": "Add VM to Folder",
+        "description": "Adds the specified virtual machine or template to a folder."
+      },
+      {
+        "activity": "Citrix Scope",
+        "description": "Connects to a Citrix Hypervisor server and provides a scope for other Citrix activities."
+      },
+      {
+        "activity": "Create VM From Template",
+        "description": "Creates a new virtual machine based on an existing template."
+      },
+      {
+        "activity": "Delete All VM Snapshots",
+        "description": "Deletes all snapshots of the specified virtual machine."
+      },
+      {
+        "activity": "Delete VM",
+        "description": "Deletes a specified virtual machine or template."
+      },
+      {
+        "activity": "Delete VM Snapshot",
+        "description": "Deletes a given snapshot of the specified virtual machine."
+      },
+      {
+        "activity": "Get Server List",
+        "description": "Retrieves the list of all Citrix Hypervisor Servers from the pool associated with the current session."
+      },
+      {
+        "activity": "Get Storage Repositories",
+        "description": "Retrieves details about the storage repositories associated with a Citrix Hypervisor Server."
+      },
+      {
+        "activity": "Get Template List",
+        "description": "Retrieves a list of templates."
+      },
+      {
+        "activity": "Get VM by UUID",
+        "description": "Retrieves the details of the specified virtual machine or template."
+      },
+      {
+        "activity": "Get VM List",
+        "description": "Retrieves a list of virtual machines."
+      },
+      {
+        "activity": "Get VM Snapshot List",
+        "description": "Retrieves all snapshots of the specified virtual machine."
+      },
+      {
+        "activity": "Power Off VM",
+        "description": "Powers off a virtual machine."
+      },
+      {
+        "activity": "Power On VM",
+        "description": "Powers on a virtual machine."
+      },
+      {
+        "activity": "Remove Tag From VM",
+        "description": "Remove a tag from the specified virtual machine or template."
+      },
+      {
+        "activity": "Remove VM from Folder",
+        "description": "Removes the specified virtual machine or template from a folder."
+      },
+      {
+        "activity": "Rename VM",
+        "description": "Renames a virtual machine or template."
+      },
+      {
+        "activity": "Restart VM",
+        "description": "Restarts a virtual machine."
+      },
+      {
+        "activity": "Resume VM",
+        "description": "Resumes a suspended virtual machine."
+      },
+      {
+        "activity": "Revert VM to Snapshot",
+        "description": "Reverts the virtual machine to a specified snapshot. If no snapshot exists, then the activity does nothing, and the virtual machine state remains unchanged."
+      },
+      {
+        "activity": "Suspend VM",
+        "description": "Suspends a running virtual machine."
+      },
+      {
+        "activity": "Take VM Snapshot",
+        "description": "Takes a snapshot of the specified virtual machine."
+      }
+    ]
+  },
+  {
+    "package": "CitrixShareFile",
+    "activities": [
+      {
+        "activity": "Create Share Link",
+        "description": "Creates a shareable link for a Sharefile item."
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in CitrixShareFile."
+      },
+      {
+        "activity": "Download File",
+        "description": "Downloads a file."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in CitrixShareFile."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in CitrixShareFile."
+      },
+      {
+        "activity": "Invoke method",
+        "description": "Invokes a citrix sharefile API method."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records in CitrixShareFile."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in CitrixShareFile."
+      },
+      {
+        "activity": "Upload File",
+        "description": "Uploads your file through previously created Chunk Uri"
+      }
+    ]
+  },
+  {
+    "package": "Concur",
+    "activities": [
+      {
+        "activity": "Add Quick Expense ",
+        "description": "Adds a quick expense in Concur to be later linked to a report"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Concur."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Concur."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Concur."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all the records of an object in Concur."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Replaces a record in Concur."
+      },
+      {
+        "activity": "Upload Receipt Image",
+        "description": "Uploads a receipt file of size up to 10MB (PDF, JPG, JPEG, PNG)"
+      }
+    ]
+  },
+  {
+    "package": "Confluence Cloud",
+    "activities": [
+      {
+        "activity": "Create Attachment",
+        "description": "Creates an attachment to a content."
+      },
+      {
+        "activity": "Create Content",
+        "description": "Creates a new piece of content or publishes an existing draft."
+      },
+      {
+        "activity": "Create Content from HTML Format",
+        "description": "Creates a new piece of content or publishes an existing draft."
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Confluence Cloud."
+      },
+      {
+        "activity": "Get Content",
+        "description": "Returns a single piece of content, like a page or a blog post."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Confluence Cloud."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Confluence Cloud."
+      },
+      {
+        "activity": "Invoke Operation",
+        "description": "Invokes a Confluence Cloud operation."
+      },
+      {
+        "activity": "List all Records",
+        "description": "Lists all the records of an object in Confluence Cloud."
+      },
+      {
+        "activity": "Search Content",
+        "description": "Searches for content across Spacenames."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Replaces a record in Confluence Cloud."
+      }
+    ]
+  },
+  {
+    "package": "Connector Builder",
+    "activities": [
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records."
+      },
+      {
+        "activity": "List Records",
+        "description": "Lists a page of records."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record."
+      }
+    ]
+  },
+  {
+    "package": "ConstantContact",
+    "activities": [
+      {
+        "activity": "Create contact",
+        "description": "Creates a contact in ConstantContact."
+      },
+      {
+        "activity": "Create single campaign",
+        "description": "Creates a single campaign in ConstantContact."
+      },
+      {
+        "activity": "Delete record",
+        "description": "Deletes a record in ConstantContact."
+      },
+      {
+        "activity": "Get campaign activity",
+        "description": "Retrieves a campaugn activity in ConstantContact."
+      },
+      {
+        "activity": "Get contact",
+        "description": "Retrieves a contact in ConstantContact."
+      },
+      {
+        "activity": "Get record",
+        "description": "Retrieves a record in ConstantContact."
+      },
+      {
+        "activity": "Get single campaign",
+        "description": "Retrieves a campaign in ConstantContact."
+      },
+      {
+        "activity": "Insert record",
+        "description": "Inserts a record in ConstantContact."
+      },
+      {
+        "activity": "List all records",
+        "description": "Lists all records in ConstantContact."
+      },
+      {
+        "activity": "Update campaign activity",
+        "description": "Updates the campaign activity of a camapign in ConstantContact."
+      },
+      {
+        "activity": "Update contact",
+        "description": "Updates a contact in ConstantContact."
+      },
+      {
+        "activity": "Update record",
+        "description": "Updates a record in ConstantContact."
+      }
+    ]
+  },
+  {
+    "package": "Coupa",
+    "activities": [
+      {
+        "activity": "Cancel Purchase Order",
+        "description": "Change the status of a purchase order to cancelled."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Coupa."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Coupa."
+      },
+      {
+        "activity": "Issue Purchase Order",
+        "description": "Change the status of a purchase order to issued."
+      },
+      {
+        "activity": "List All Contract Attachments",
+        "description": "Lists all attachments for a contract in Coupa."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records for an object in Coupa."
+      },
+      {
+        "activity": "List Records",
+        "description": "Lists a page of records in Coupa."
+      },
+      {
+        "activity": "Soft Close Purchase Order",
+        "description": "Change the status of a purchase order to soft closed."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Coupa."
+      },
+      {
+        "activity": "Upsert Record",
+        "description": "Upserts a record in Coupa."
+      }
+    ]
+  },
+  {
+    "package": "Default",
+    "activities": [
+      {
+        "activity": "Add To Collection",
+        "description": "Adds an item to a specified collection."
+      },
+      {
+        "activity": "Clear Collection",
+        "description": "Clears a specified collection of all items."
+      },
+      {
+        "activity": "Create List",
+        "description": "Creates a new empty list."
+      },
+      {
+        "activity": "Delay",
+        "description": "Delays workflow execution for a given duration."
+      },
+      {
+        "activity": "If",
+        "description": "Models an If-Then-Else condition."
+      },
+      {
+        "activity": "Rethrow",
+        "description": "Throws an exception previously caught in an exception handling block."
+      },
+      {
+        "activity": "Sequence",
+        "description": "Executes a set of child activities according to a single, defined order."
+      },
+      {
+        "activity": "Set Variable Value",
+        "description": "Save a value to use in later activities. The saved value can be used as input to another activity."
+      },
+      {
+        "activity": "Switch",
+        "description": "Executes the activities added in a single Case block out of multiple defined cases based on which case matches a specified expression."
+      },
+      {
+        "activity": "Terminate Workflow",
+        "description": "Terminates the running workflow instance, raises the System.Activities.WorkflowApplication.Completed event in the host, and reports error information. Once the workflow is terminated, it cannot be resumed."
+      },
+      {
+        "activity": "Throw",
+        "description": "Throws an exception."
+      },
+      {
+        "activity": "Try Catch",
+        "description": "Contains activities to be executed by the workflow runtime in an exception handling block."
+      },
+      {
+        "activity": "Write Line",
+        "description": "Displays the specified data or text in the Output panel."
+      }
+    ]
+  },
+  {
+    "package": "Docusign",
+    "activities": [
+      {
+        "activity": "Add Document to Envelope",
+        "description": "Add a document to an existing envelope in DocuSign"
+      },
+      {
+        "activity": "Add Recipient to Envelope",
+        "description": "Add a recipient to an existing envelope in DocuSign"
+      },
+      {
+        "activity": "Create Envelope Using Template",
+        "description": "Create an envelope using a template and save it as draft or send it to the recipient"
+      },
+      {
+        "activity": "Create from Existing Envelope",
+        "description": "Create a copy of an existing envelope and save as a draft"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Docusign."
+      },
+      {
+        "activity": "Download Documents of Envelope",
+        "description": "Download all the documents of an envelope in DocuSign"
+      },
+      {
+        "activity": "Get Form Data",
+        "description": "Retrieve the envelope and tab data (also called form data) from any in-process, completed, or canceled envelope. Recipients who are also full administrators on an account can view form data for any envelopes that another user on the account has sent to them. To use this activity, the Sending Setting \"Allow sender to download form data\" must be enabled on the account."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Docusign."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Docusign."
+      },
+      {
+        "activity": "Invoke Operation",
+        "description": "Invokes a Docusign API operation."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all the records of an object in Docusign."
+      },
+      {
+        "activity": "Send Envelope",
+        "description": "Send a draft envelope in DocuSign"
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Docusign."
+      }
+    ]
+  },
+  {
+    "package": "Dropbox",
+    "activities": [
+      {
+        "activity": "Copy files",
+        "description": "Copy a file to a different location in the user's Dropbox."
+      },
+      {
+        "activity": "Copy folder",
+        "description": "Copy a folder to a different location in the user's Dropbox. If the source path is a folder all its contents will be copied."
+      },
+      {
+        "activity": "Create folder",
+        "description": "Create a folder in a given path"
+      },
+      {
+        "activity": "Create shared link",
+        "description": "Create a shared link with custom settings. If no settings are given then the default visibility is RequestedVisibility.public (The resolved visibility, though, may depend on other aspects such as team and shared folder settings)."
+      },
+      {
+        "activity": "Delete file",
+        "description": "Delete a file from a given path."
+      },
+      {
+        "activity": "Delete folder",
+        "description": "Delete a folder at a given path"
+      },
+      {
+        "activity": "Delete record",
+        "description": "Deletes a record in Dropbox."
+      },
+      {
+        "activity": "Download file",
+        "description": "Download a file from a user's Dropbox."
+      },
+      {
+        "activity": "Get file details",
+        "description": "This helps in providing with file details as output when file path is passed."
+      },
+      {
+        "activity": "Get folder content",
+        "description": "Get folder content based on folder path."
+      },
+      {
+        "activity": "Get folder details",
+        "description": "Get folder details based on folder path."
+      },
+      {
+        "activity": "Get record",
+        "description": "Retrieves a record in Dropbox."
+      },
+      {
+        "activity": "Get shared link",
+        "description": "This helps in providing with file shared link as output when shared file path is passed."
+      },
+      {
+        "activity": "Insert record",
+        "description": "Inserts a record in Dropbox."
+      },
+      {
+        "activity": "Invoke operation",
+        "description": "Invokes a Dropbox API operation."
+      },
+      {
+        "activity": "List all records",
+        "description": "Lists all the records of an object in Dropbox."
+      },
+      {
+        "activity": "List records",
+        "description": "Lists a page of records in Dropbox."
+      },
+      {
+        "activity": "Search files",
+        "description": "Searches for files and folders"
+      },
+      {
+        "activity": "Upload file",
+        "description": "Create a new file in user's Dropbox."
+      }
+    ]
+  },
+  {
+    "package": "Dropbox Business",
+    "activities": [
+      {
+        "activity": "Add Members",
+        "description": "Add members to a team"
+      },
+      {
+        "activity": "Copy files",
+        "description": "Copy a file to a different location in the user's Dropbox."
+      },
+      {
+        "activity": "Copy folder",
+        "description": "Copy a folder to a different location in the user's Dropbox. If the source path is a folder all its contents will be copied."
+      },
+      {
+        "activity": "Create folder",
+        "description": "Create a folder in a given path"
+      },
+      {
+        "activity": "Create shared link",
+        "description": "Create a shared link with custom settings. If no settings are given then the default visibility is RequestedVisibility.public (The resolved visibility, though, may depend on other aspects such as team and shared folder settings)."
+      },
+      {
+        "activity": "Delete file",
+        "description": "Delete a file from a given path."
+      },
+      {
+        "activity": "Delete folder",
+        "description": "Delete a folder at a given path"
+      },
+      {
+        "activity": "Download file",
+        "description": "Download a file from a user's Dropbox."
+      },
+      {
+        "activity": "Get file details",
+        "description": "This helps in providing with file details as output when file path is passed."
+      },
+      {
+        "activity": "Get folder Info",
+        "description": "Get folder details based on folder path."
+      },
+      {
+        "activity": "Get folder Items",
+        "description": "Get folder content based on folder path."
+      },
+      {
+        "activity": "Get Members",
+        "description": "Get members info of a team."
+      },
+      {
+        "activity": "Get shared link",
+        "description": "This helps in providing with file shared link as output when shared file path is passed."
+      },
+      {
+        "activity": "Insert record",
+        "description": "Inserts a record in Dropbox."
+      },
+      {
+        "activity": "Invoke operation",
+        "description": "Invokes a Dropbox API operation."
+      },
+      {
+        "activity": "List Members",
+        "description": "List members of a team."
+      },
+      {
+        "activity": "Remove a Member",
+        "description": "Removes a member to a team."
+      },
+      {
+        "activity": "Search files",
+        "description": "Searches for files and folders"
+      },
+      {
+        "activity": "Suspend a Member",
+        "description": "Suspend a member to a team."
+      },
+      {
+        "activity": "Unsuspend a Member",
+        "description": "Unsuspend a member from a team."
+      },
+      {
+        "activity": "Upload file",
+        "description": "Create a new file in user's Dropbox."
+      }
+    ]
+  },
+  {
+    "package": "Epic FHIR R4",
+    "activities": [
+      {
+        "activity": "Get Record",
+        "description": "Retrieves the record with the given ID, of the selected object type, from Epic system"
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a new record, of the selected object type, in Epic system"
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records, of the selected object type, from Epic system"
+      }
+    ]
+  },
+  {
+    "package": "ExpenseReporting.Activities",
+    "activities": [
+      {
+        "activity": "Categorize Expense",
+        "description": "Categorize expenses automatically"
+      }
+    ]
+  },
+  {
+    "package": "Expensify",
+    "activities": [
+      {
+        "activity": "Download report",
+        "description": "Downloads reports based on date filters."
+      },
+      {
+        "activity": "Export report",
+        "description": "Exporting report and sending via emails according to date filters"
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in  Expensify."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Expensify."
+      },
+      {
+        "activity": "Invoke Operation",
+        "description": "Invokes a Expensify API operation."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Expensify."
+      }
+    ]
+  },
+  {
+    "package": "Freshservice",
+    "activities": [
+      {
+        "activity": "Create a reply",
+        "description": "Create a reply for ticket"
+      },
+      {
+        "activity": "Create ticket",
+        "description": "Create a ticket in Freshservice."
+      },
+      {
+        "activity": "Create ticket with a attachment",
+        "description": "Create a ticket with attachment in Freshservice."
+      },
+      {
+        "activity": "Create ticket with assets",
+        "description": "Create a ticket with assets in Freshservice."
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Freshservice."
+      },
+      {
+        "activity": "Delete ticket",
+        "description": "Deletes a ticket in Freshservice."
+      },
+      {
+        "activity": "Get all conversations",
+        "description": "Get all conversations for a ticket in Freshservice"
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Freshservice."
+      },
+      {
+        "activity": "Get ticket",
+        "description": "Retrieves a ticket in Freshservice"
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Freshservice."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records for an object in Freshservice"
+      },
+      {
+        "activity": "List all tickets",
+        "description": "Lists all tickets in Freshservice."
+      },
+      {
+        "activity": "Search tickets",
+        "description": "Search tickets in Freshservice."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Freshservice."
+      },
+      {
+        "activity": "Upsert ticket",
+        "description": "Upsert an existing ticket in Freshservice."
+      }
+    ]
+  },
+  {
+    "package": "GitHub",
+    "activities": [
+      {
+        "activity": "Create branch",
+        "description": "Create a branch from an existing repository in GitHub."
+      },
+      {
+        "activity": "Create issue",
+        "description": "Create a issue in GitHub."
+      },
+      {
+        "activity": "Create pull request",
+        "description": "Create a pull request using GitHub."
+      },
+      {
+        "activity": "Create repository",
+        "description": "Create a repository using GitHub."
+      },
+      {
+        "activity": "Delete record",
+        "description": "Deletes a record in GitHub."
+      },
+      {
+        "activity": "Download file",
+        "description": "Downloads a file to GitHub."
+      },
+      {
+        "activity": "Get record",
+        "description": "Retrieves a record in GitHub."
+      },
+      {
+        "activity": "Insert record",
+        "description": "Inserts a record in GitHub."
+      },
+      {
+        "activity": "Invoke operation",
+        "description": "Invokes a GitHub operation."
+      },
+      {
+        "activity": "List all branches",
+        "description": "List all the branches from GitHub."
+      },
+      {
+        "activity": "List all records",
+        "description": "Lists all the records of an object in GitHub."
+      },
+      {
+        "activity": "Merge pull request",
+        "description": "Merge a pull request in GitHub."
+      },
+      {
+        "activity": "Search issues and pull requests",
+        "description": "Search for an issue or pull request in GitHub."
+      },
+      {
+        "activity": "Search repositories",
+        "description": "Search for a repository in GitHub."
+      },
+      {
+        "activity": "Update issue",
+        "description": "Update an issue in GitHub."
+      },
+      {
+        "activity": "Update record",
+        "description": "Updates a record in GitHub."
+      },
+      {
+        "activity": "Upload file",
+        "description": "Uploads a file to GitHub."
+      }
+    ]
+  },
+  {
+    "package": "Google Cloud",
+    "activities": [
+      {
+        "activity": "Configure Robot",
+        "description": "Connects the Robot in a given instance to UiPath Orchestrator."
+      },
+      {
+        "activity": "Copy Object",
+        "description": "Copies an object to another bucket."
+      },
+      {
+        "activity": "Create Bucket",
+        "description": "Creates a new bucket."
+      },
+      {
+        "activity": "Create Instance",
+        "description": "Creates a new instance. An instance is a virtual machine that is hosted on Google Cloud Platform."
+      },
+      {
+        "activity": "Create Instance from Template",
+        "description": "Creates a new instance from an instance template."
+      },
+      {
+        "activity": "Create Role",
+        "description": "Creates a new custom role."
+      },
+      {
+        "activity": "Delete Bucket",
+        "description": "Deletes a bucket."
+      },
+      {
+        "activity": "Delete Instance",
+        "description": "Deletes an instance."
+      },
+      {
+        "activity": "Delete Object",
+        "description": "Deletes the specified object. The object is permanently deleted if versioning is not enabled for the bucket or if the Generation parameter is used."
+      },
+      {
+        "activity": "Delete Role",
+        "description": "Deletes the specified custom role."
+      },
+      {
+        "activity": "Download Object to File",
+        "description": "Downloads an object to a specified file."
+      },
+      {
+        "activity": "For Each Bucket",
+        "description": "Performs an activity or a series of activities on each bucket in the specified project."
+      },
+      {
+        "activity": "For Each Grantable Role",
+        "description": "Performs an activity or a series of activities on each role that can be granted on a Google Cloud resource."
+      },
+      {
+        "activity": "For Each Instance",
+        "description": "Performs an activity or a series of activities on each instance matching the filter criteria."
+      },
+      {
+        "activity": "For Each Object in Bucket",
+        "description": "Performs an activity or a series of activities on each object in a specified bucket."
+      },
+      {
+        "activity": "For Each Project",
+        "description": "Performs an activity or a series of activities on each project that matches the filter criteria."
+      },
+      {
+        "activity": "For Each Role",
+        "description": "Performs an activity or a series of activities on each role that matches the filter criteria."
+      },
+      {
+        "activity": "Get Bucket",
+        "description": "Gets information about a specific bucket."
+      },
+      {
+        "activity": "Get IAM Policy",
+        "description": "Gets the policy for the specified resource."
+      },
+      {
+        "activity": "Get Instance",
+        "description": "Gets the details of the specified instance."
+      },
+      {
+        "activity": "Get Object",
+        "description": "Retrieves the details of the specified object."
+      },
+      {
+        "activity": "Get Project",
+        "description": "Retrieves the project identified by the specified project ID."
+      },
+      {
+        "activity": "Get Role",
+        "description": "Gets information about the specified role."
+      },
+      {
+        "activity": "Get Secret Data",
+        "description": "Gets the secret data associated with the specified secret version."
+      },
+      {
+        "activity": "Google Cloud Scope",
+        "description": "Connects to Google Cloud and provides a scope for other Google Cloud activities."
+      },
+      {
+        "activity": "Reset Instance",
+        "description": "Resets an instance. This is a hard reset, it is not a graceful shutdown."
+      },
+      {
+        "activity": "Run Script on Instance",
+        "description": "Runs a script on an instance."
+      },
+      {
+        "activity": "Set IAM Policy",
+        "description": "Sets the access control policy on the specified resource. It replaces any existing policy."
+      },
+      {
+        "activity": "Start Instance",
+        "description": "Starts an instance."
+      },
+      {
+        "activity": "Stop Instance",
+        "description": "Stops a running instance."
+      },
+      {
+        "activity": "Undelete Role",
+        "description": "Cancels the deletion of the specified custom role."
+      },
+      {
+        "activity": "Update Bucket Properties",
+        "description": "Updates the properties of a bucket."
+      },
+      {
+        "activity": "Update Role",
+        "description": "Updates the specified custom role."
+      },
+      {
+        "activity": "Upload Object from File",
+        "description": "Uploads a file to a bucket."
+      }
+    ]
+  },
+  {
+    "package": "Google Tasks",
+    "activities": [
+      {
+        "activity": "Create a Task",
+        "description": "Create task"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Google Tasks."
+      },
+      {
+        "activity": "Get a Task",
+        "description": "Get task"
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Google Tasks."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Google Tasks."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records in Google Tasks."
+      },
+      {
+        "activity": "List Task Lists",
+        "description": "List task list"
+      },
+      {
+        "activity": "List Tasks",
+        "description": "List task"
+      },
+      {
+        "activity": "Mark a Task as Completed",
+        "description": "Complete task"
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Google Tasks."
+      }
+    ]
+  },
+  {
+    "package": "Google Vision",
+    "activities": [
+      {
+        "activity": "Annotate File",
+        "description": "Annotates a file."
+      },
+      {
+        "activity": "Face Detection",
+        "description": "Face Detection"
+      },
+      {
+        "activity": "Handwriting Detection",
+        "description": "Handwriting Detection"
+      },
+      {
+        "activity": "Label Detection",
+        "description": "Label a Detection."
+      },
+      {
+        "activity": "Logo Detection",
+        "description": "Logo Detection"
+      },
+      {
+        "activity": "Text Detection",
+        "description": "Text Detection"
+      },
+      {
+        "activity": "Web Detection",
+        "description": "Web Detection"
+      }
+    ]
+  },
+  {
+    "package": "Google Workspace",
+    "activities": [
+      {
+        "activity": "Add Sheet",
+        "description": "Adds a new sheet to the specified spreadsheet."
+      },
+      {
+        "activity": "Archive Email",
+        "description": "Archives an email."
+      },
+      {
+        "activity": "Copy File",
+        "description": "Copies a file on Google Drive."
+      },
+      {
+        "activity": "Create Event",
+        "description": "Adds an event to the indicated calendar."
+      },
+      {
+        "activity": "Create Folder",
+        "description": "Creates a folder in Google Drive."
+      },
+      {
+        "activity": "Create Spreadsheet",
+        "description": "Creates a new Google spreadsheet."
+      },
+      {
+        "activity": "Delete Email",
+        "description": "Deletes an email."
+      },
+      {
+        "activity": "Delete Event",
+        "description": "Cancels an event and sends cancellation notification to all event attendees. Event is considered as deleted afterwards. "
+      },
+      {
+        "activity": "Delete File/Folder",
+        "description": "Deletes a file or folder."
+      },
+      {
+        "activity": "Delete Range",
+        "description": "Deletes a specified range."
+      },
+      {
+        "activity": "Delete Sheet",
+        "description": "Deletes the specified sheet from the specified spreadsheet."
+      },
+      {
+        "activity": "Download Email",
+        "description": "Downloads an email in EML file format."
+      },
+      {
+        "activity": "Download Email Attachments",
+        "description": "Downloads the attachments."
+      },
+      {
+        "activity": "Download File",
+        "description": "Downloads the specified file."
+      },
+      {
+        "activity": "For Each Email",
+        "description": "Repeats the contained activities for each email matching the filter criteria."
+      },
+      {
+        "activity": "For Each Event",
+        "description": "Iterates through a list of calendar events defined by the filter criteria. The output can be used in further activities."
+      },
+      {
+        "activity": "For Each File/Folder",
+        "description": "Iterates over a list of files and folders."
+      },
+      {
+        "activity": "For Each Row in Spreadsheet",
+        "description": "Reads and saves the information from a spreadsheet's range for subsequent activities like Write Range."
+      },
+      {
+        "activity": "For Each Sheet in Spreadsheet",
+        "description": "Iterates through the sheets within a spreadsheet."
+      },
+      {
+        "activity": "Forward Email",
+        "description": "Forwards an email to new recipients."
+      },
+      {
+        "activity": "Forward Event",
+        "description": "Forwards an event to all the specified attendees."
+      },
+      {
+        "activity": "Get Email By ID",
+        "description": "Retrieves the email with the specified ID."
+      },
+      {
+        "activity": "Get Email List",
+        "description": "Retrieve a list of emails from the specified folder that matches the filter criteria"
+      },
+      {
+        "activity": "Get File List",
+        "description": "Retrieves a list of files from the specified Google Drive location."
+      },
+      {
+        "activity": "Get File/Folder",
+        "description": "Gets a file or folder from Google Drive to use in other activities."
+      },
+      {
+        "activity": "Get Newest Email",
+        "description": "Returns the most recent email matching the search criteria."
+      },
+      {
+        "activity": "Mark Email as Read/Unread",
+        "description": "Marks an email as read or unread."
+      },
+      {
+        "activity": "Move Email",
+        "description": "Moves an email to another folder."
+      },
+      {
+        "activity": "Move File",
+        "description": "Moves a file on Google Drive."
+      },
+      {
+        "activity": "Read Cell",
+        "description": "Reads the information from the indicated cell for subsequent activities like Write Cell."
+      },
+      {
+        "activity": "Read Range",
+        "description": "Reads and saves the information from a spreadsheet's range for subsequent activities like Write Range."
+      },
+      {
+        "activity": "Rename Sheet",
+        "description": "Renames the specified sheet from the specified spreadsheet."
+      },
+      {
+        "activity": "Reply To Email",
+        "description": "Replies to an email."
+      },
+      {
+        "activity": "Respond to Event Invitation",
+        "description": "Defines a reply to an event invitation."
+      },
+      {
+        "activity": "Send Email",
+        "description": "Sends an email message."
+      },
+      {
+        "activity": "Share File/Folder",
+        "description": "Share a file or folder with the specified recipients."
+      },
+      {
+        "activity": "Update Event",
+        "description": "Modifies and updates the properties of the chosen event. The properties left blank remain unchanged."
+      },
+      {
+        "activity": "Upload Files",
+        "description": "Uploads files to Google Drive."
+      },
+      {
+        "activity": "Write Cell",
+        "description": "Writes information in the selected spreadsheet cell."
+      },
+      {
+        "activity": "Write Range",
+        "description": "Writes a data table to the indicated range from the selected spreadsheet."
+      }
+    ]
+  },
+  {
+    "package": "GoToWebinar",
+    "activities": [
+      {
+        "activity": "Create single session webinar",
+        "description": "Creates a single session webinar in GoToWebinar"
+      },
+      {
+        "activity": "Delete record",
+        "description": "Deletes a record in GoToWebinar"
+      },
+      {
+        "activity": "Delete webinar",
+        "description": "Deletes a webinar in GoToWebinar"
+      },
+      {
+        "activity": "Get record",
+        "description": "Retrieves a record in GoToWebinar"
+      },
+      {
+        "activity": "Get webinar",
+        "description": "Retrieves a webinar in GoToWebinar"
+      },
+      {
+        "activity": "Get webinar meeting times",
+        "description": "Retrieves meeting times in GoToWebinar"
+      },
+      {
+        "activity": "Get webinar registrant",
+        "description": "Retrieves a webinar registrant in GoToWebinar"
+      },
+      {
+        "activity": "Get webinar start url",
+        "description": "Get the start url for a webinar in GoToWebinar"
+      },
+      {
+        "activity": "Insert record",
+        "description": "Inserts a record in GoToWebinar"
+      },
+      {
+        "activity": "List account webinars",
+        "description": "Lists a page of account webinars in GoToWebinar"
+      },
+      {
+        "activity": "List all in session webinars",
+        "description": "Lists all webinars in GoToWebinar that are in session"
+      },
+      {
+        "activity": "List all records",
+        "description": "Lists all records for an object in GoToWebinar"
+      },
+      {
+        "activity": "List all webinar attendees",
+        "description": "Lists all attendees for a webinar in GoToWebinar"
+      },
+      {
+        "activity": "List all webinar registrants",
+        "description": "Lists all registrants for a webinar in GoToWebinar"
+      },
+      {
+        "activity": "List all webinar session attendees",
+        "description": "Lists all attendees for a webinar session in GoToWebinar"
+      },
+      {
+        "activity": "List all webinar sessions",
+        "description": "Lists all sessions for a webinar in GoToWebinar"
+      },
+      {
+        "activity": "List all webinars",
+        "description": "Lists all webinars in GoToWebinar"
+      },
+      {
+        "activity": "List records",
+        "description": "Lists a page of records in GoToWebinar"
+      },
+      {
+        "activity": "List webinar session performances",
+        "description": "Lists performances for a webinar session in GoToWebinar"
+      },
+      {
+        "activity": "List webinars",
+        "description": "Lists a page of upcoming and past webinars in GoToWebinar"
+      },
+      {
+        "activity": "Quick create webinar",
+        "description": "Quickly creates a webinar in GoToWebinar"
+      },
+      {
+        "activity": "Quick update webinar",
+        "description": "Quickly update a webinar in GoToWebinar"
+      },
+      {
+        "activity": "Search recording assets",
+        "description": "Search recording assets for webinars in GoToWebinar"
+      }
+    ]
+  },
+  {
+    "package": "Hootsuite",
+    "activities": [
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Hootsuite."
+      },
+      {
+        "activity": "Get Media Upload Status",
+        "description": "Retrieves the media upload status in Hootsuite."
+      },
+      {
+        "activity": "Get My Information",
+        "description": "Get authenticated user's information"
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Hootsuite."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Hootsuite."
+      },
+      {
+        "activity": "Invoke Operation",
+        "description": "Invokes a Hootsuite API operation"
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records for an object in Hootsuite"
+      },
+      {
+        "activity": "List My Organizations",
+        "description": "List authenticated user's organizations"
+      },
+      {
+        "activity": "List My Social Profiles",
+        "description": "List authenticated user's social profiles"
+      },
+      {
+        "activity": "Schedule Message",
+        "description": "Schedules a message in Hootsuite."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Hootsuite."
+      },
+      {
+        "activity": "Upload Media",
+        "description": "Upload media in Hootsuite"
+      }
+    ]
+  },
+  {
+    "package": "Hubspot CRM",
+    "activities": [
+      {
+        "activity": "Archive association",
+        "description": "Archives the association between two objects in Hubspot CRM."
+      },
+      {
+        "activity": "Archive company",
+        "description": "Archives a company in Hubspot."
+      },
+      {
+        "activity": "Archive contact",
+        "description": "Archives a contact in Hubspot."
+      },
+      {
+        "activity": "Archive deal",
+        "description": "Archives/Deletes a deal in Hubspot CRM"
+      },
+      {
+        "activity": "Archive product",
+        "description": "Archives/Deletes a product in Hubspot CRM"
+      },
+      {
+        "activity": "Create association",
+        "description": "Create an association between two objects in Hubspot CRM."
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Hubspot CRM."
+      },
+      {
+        "activity": "Get company",
+        "description": "Retrieves a company in Hubspot."
+      },
+      {
+        "activity": "Get contact",
+        "description": "Retrieves a contact in Hubspot."
+      },
+      {
+        "activity": "Get deal",
+        "description": "Retrieves a deal in Hubspot CRM."
+      },
+      {
+        "activity": "Get product",
+        "description": "Retrieves a product in Hubspot CRM."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Hubspot CRM."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Hubspot CRM."
+      },
+      {
+        "activity": "Invoke Operation",
+        "description": "Invokes a Hubspot CRM API operation."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all the records of an object in Hubspot CRM."
+      },
+      {
+        "activity": "Quick create company",
+        "description": "Creates a company in Hubspot."
+      },
+      {
+        "activity": "Quick create contact",
+        "description": "Creates a contact in Hubspot."
+      },
+      {
+        "activity": "Quick create product",
+        "description": "Creates a product in Hubspot."
+      },
+      {
+        "activity": "Quick update company",
+        "description": "Updates a company in Hubspot."
+      },
+      {
+        "activity": "Quick update contact",
+        "description": "Updates a contact in Hubspot."
+      },
+      {
+        "activity": "Quick update product",
+        "description": "Updates a company in Hubspot."
+      },
+      {
+        "activity": "Update file",
+        "description": "Updates an existing file in Hubspot CRM."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Hubspot CRM."
+      },
+      {
+        "activity": "Upload file",
+        "description": "Uploads a file to Hubspot CRM."
+      },
+      {
+        "activity": "Upsert Record",
+        "description": "Upserts a record in Hubspot CRM."
+      }
+    ]
+  },
+  {
+    "package": "Hubspot Marketing",
+    "activities": [
+      {
+        "activity": "Add contact to list by email",
+        "description": "Adds a new contact to a specific list by email"
+      },
+      {
+        "activity": "Add contact to list by id",
+        "description": "Adds a new contact to a specific list by contact Id"
+      },
+      {
+        "activity": "Archive company",
+        "description": "Archives a company in Hubspot Marketing"
+      },
+      {
+        "activity": "Archive contact",
+        "description": "Archives a contact in Hubspot Marketing."
+      },
+      {
+        "activity": "Create basic static list",
+        "description": "Creates a contact list in Hubspot Marketing"
+      },
+      {
+        "activity": "Delete contact list",
+        "description": "Deletes a contact list in Hubspot Marketing"
+      },
+      {
+        "activity": "Delete record",
+        "description": "Deletes a record in Hubspot Marketing."
+      },
+      {
+        "activity": "Find first record",
+        "description": "Retrieves the first record in Hubspot Marketing."
+      },
+      {
+        "activity": "Get company",
+        "description": "Retrieves a company in Hubspot Marketing"
+      },
+      {
+        "activity": "Get contact",
+        "description": "Retrieves a contact in Hubspot Marketing"
+      },
+      {
+        "activity": "Get contact list",
+        "description": "Retrieve a contact list in Hubspot Marketing"
+      },
+      {
+        "activity": "Get record",
+        "description": "Retrieves a record in Hubspot Marketing."
+      },
+      {
+        "activity": "Insert record",
+        "description": "Inserts a record in Hubspot Marketing."
+      },
+      {
+        "activity": "List all records",
+        "description": "Lists all the records of an object in Hubspot Marketing."
+      },
+      {
+        "activity": "Quick create company",
+        "description": "Creates a company in Hubspot Marketing"
+      },
+      {
+        "activity": "Quick create contact",
+        "description": "Creates a contact in Hubspot Marketing"
+      },
+      {
+        "activity": "Quick update company",
+        "description": "Updates a company in Hubspot Marketing"
+      },
+      {
+        "activity": "Quick update contact",
+        "description": "Updates a contact in Hubspot Marketing"
+      },
+      {
+        "activity": "Remove contact from a list",
+        "description": "Removes an existing contact from a specific list by Id"
+      },
+      {
+        "activity": "Replace record",
+        "description": "Updates/Replaces a record in Hubspot Marketing."
+      },
+      {
+        "activity": "Update basic contact list",
+        "description": "Updates a contact list in Hubspot Marketing"
+      },
+      {
+        "activity": "Update file",
+        "description": "Updates an existing file in Hubspot Marketing."
+      },
+      {
+        "activity": "Update record",
+        "description": "Updates a record in Hubspot Marketing."
+      },
+      {
+        "activity": "Upload file",
+        "description": "Uploads a file to Hubspot Marketing."
+      }
+    ]
+  },
+  {
+    "package": "iContact",
+    "activities": [
+      {
+        "activity": "Add contact to list",
+        "description": "Subscribes a contact to a list."
+      },
+      {
+        "activity": "Create basic contact",
+        "description": "Creates a contact in iContact with basic info."
+      },
+      {
+        "activity": "Create contact list",
+        "description": "Creates a contact list in iContact."
+      },
+      {
+        "activity": "Delete record",
+        "description": "Deletes a record in iContact."
+      },
+      {
+        "activity": "Get record",
+        "description": "Retrieves a record in iContact."
+      },
+      {
+        "activity": "Insert record",
+        "description": "Inserts a record in iContact."
+      },
+      {
+        "activity": "Invoke operation",
+        "description": "Invokes iContact API operation."
+      },
+      {
+        "activity": "List all records",
+        "description": "Lists all records in iContact."
+      },
+      {
+        "activity": "Update basic contact",
+        "description": "Update a contact in iContact with some basic info."
+      },
+      {
+        "activity": "Update record",
+        "description": "Updates a record in iContact."
+      }
+    ]
+  },
+  {
+    "package": "Jira",
+    "activities": [
+      {
+        "activity": "Add Attachment",
+        "description": "Add an attachment."
+      },
+      {
+        "activity": "Add Comment",
+        "description": "Adds a new comment on an issue in Jira."
+      },
+      {
+        "activity": "Create Issue",
+        "description": "Creates a Jira issue."
+      },
+      {
+        "activity": "Delete Issue",
+        "description": "Deletes an issue."
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Jira."
+      },
+      {
+        "activity": "Get Comments",
+        "description": "Gets all comments for an issue."
+      },
+      {
+        "activity": "Get Issue",
+        "description": "Returns all the information of a Jira issue (assignee, reporter, project, etc)."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Jira."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Jira."
+      },
+      {
+        "activity": "Invoke Operation",
+        "description": "Invokes a Jira API operation."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records for an object in Jira."
+      },
+      {
+        "activity": "Search Issues",
+        "description": "Allows for advanced search using Jira Query Language (JQL)."
+      },
+      {
+        "activity": "Update Issue",
+        "description": "Updates a Jira issue."
+      },
+      {
+        "activity": "Update Issue Assignee",
+        "description": "Assigns or unassigns user to a Jira issue."
+      },
+      {
+        "activity": "Update Issue Status",
+        "description": "Updates the status of an issue."
+      },
+      {
+        "activity": "Upsert Record",
+        "description": "Upsert a record in Jira."
+      }
+    ]
+  },
+  {
+    "package": "Mailchimp",
+    "activities": [
+      {
+        "activity": "Add list member",
+        "description": "Add a list member in Mailchimp."
+      },
+      {
+        "activity": "Create campaign",
+        "description": "Create a campaign in Mailchimp."
+      },
+      {
+        "activity": "Create list",
+        "description": "Create a list in Mailchimp."
+      },
+      {
+        "activity": "Delete campaign",
+        "description": "Deletes a campaign from Mailchimp."
+      },
+      {
+        "activity": "Delete list",
+        "description": "Deletes a list from Mailchimp."
+      },
+      {
+        "activity": "Delete list member",
+        "description": "Deletes a list member from Mailchimp."
+      },
+      {
+        "activity": "Delete record",
+        "description": "Deletes a record in Mailchimp."
+      },
+      {
+        "activity": "Get campaign",
+        "description": "Retrieves a campaign from Mailchimp."
+      },
+      {
+        "activity": "Get campaign report",
+        "description": "Get report details for a specific sent campaign in Mailchimp."
+      },
+      {
+        "activity": "Get list",
+        "description": "Retrieves a list from Mailchimp."
+      },
+      {
+        "activity": "Get list member",
+        "description": "Retrieves a list member info from Mailchimp."
+      },
+      {
+        "activity": "Get record",
+        "description": "Retrieves a record in Mailchimp."
+      },
+      {
+        "activity": "Insert record",
+        "description": "Inserts a record in Mailchimp."
+      },
+      {
+        "activity": "Invoke operation",
+        "description": "Invokes a Mailchimp operation."
+      },
+      {
+        "activity": "List all campaign open reports",
+        "description": "Get information of any campaign emails that were opened by a list member in Mailchimp."
+      },
+      {
+        "activity": "List all campaign reports",
+        "description": "Get all campaign reports in Mailchimp."
+      },
+      {
+        "activity": "List all campaigns",
+        "description": "List all the campaigns in Mailchimp."
+      },
+      {
+        "activity": "List all list members",
+        "description": "List all the list members in Mailchimp."
+      },
+      {
+        "activity": "List all lists",
+        "description": "List all the lists in Mailchimp."
+      },
+      {
+        "activity": "List all records",
+        "description": "Lists all the records of an object in Mailchimp."
+      },
+      {
+        "activity": "Search campaigns",
+        "description": "Search all campaigns for the specified query terms."
+      },
+      {
+        "activity": "Search members",
+        "description": "Search for list members. This search can be restricted to a specific list, or can be used to search across all lists in an account."
+      },
+      {
+        "activity": "Send campaign",
+        "description": "Send a campaign in Mailchimp."
+      },
+      {
+        "activity": "Send test email",
+        "description": "Send a test email for a campaign in Mailchimp."
+      },
+      {
+        "activity": "Set campaign content",
+        "description": "Set the campaign content in Mailchimp."
+      },
+      {
+        "activity": "Update campaign",
+        "description": "Updates a campaign record in Mailchimp."
+      },
+      {
+        "activity": "Update list",
+        "description": "Updates a list record in Mailchimp."
+      },
+      {
+        "activity": "Update list member",
+        "description": "Updates a list member in Mailchimp."
+      },
+      {
+        "activity": "Update record",
+        "description": "Updates a record in Mailchimp."
+      }
+    ]
+  },
+  {
+    "package": "Marketo",
+    "activities": [
+      {
+        "activity": "Add Leads To A List",
+        "description": "Adds specified lead(s) to a list existing in Marketo"
+      },
+      {
+        "activity": "Create Lead",
+        "description": "Create a lead in Marketo"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Marketo."
+      },
+      {
+        "activity": "Get All Leads",
+        "description": "Retrieves all leads from Marketo"
+      },
+      {
+        "activity": "Get Lead Changes",
+        "description": "Retrieves latest leads created or modified since the specified interval"
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Marketo."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Marketo."
+      },
+      {
+        "activity": "Invoke operation",
+        "description": "Invokes a Marketo API operation."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records in Marketo."
+      },
+      {
+        "activity": "Remove Leads From A List",
+        "description": "Removes specified lead(s) from a list existing in marketo"
+      },
+      {
+        "activity": "Update Lead",
+        "description": "Update a lead\u2019s details in Marketo"
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Marketo."
+      }
+    ]
+  },
+  {
+    "package": "Microsoft 365",
+    "activities": [
+      {
+        "activity": "Add Sheet",
+        "description": "Adds a new sheet to the specified workbook."
+      },
+      {
+        "activity": "Archive Email",
+        "description": "Archives an email."
+      },
+      {
+        "activity": "Copy File/Folder",
+        "description": "Copies a file or folder to the specified destination folder in OneDrive or SharePoint."
+      },
+      {
+        "activity": "Create Event",
+        "description": "Adds an event to the indicated calendar."
+      },
+      {
+        "activity": "Create Folder",
+        "description": "Creates a folder at the specified location in OneDrive or SharePoint."
+      },
+      {
+        "activity": "Create Workbook",
+        "description": "Creates a new Excel workbook."
+      },
+      {
+        "activity": "Delete Email",
+        "description": "Deletes an email."
+      },
+      {
+        "activity": "Delete Event",
+        "description": "Cancels an event and sends cancellation notification to all event attendees. Event is considered as deleted afterwards. "
+      },
+      {
+        "activity": "Delete File/Folder",
+        "description": "Deletes a file or folder at the specified location in OneDrive or SharePoint."
+      },
+      {
+        "activity": "Delete Range",
+        "description": "Delete a range from the selected Excel Workbook."
+      },
+      {
+        "activity": "Delete Sheet",
+        "description": "Delete a sheet from the specified workbook."
+      },
+      {
+        "activity": "Download Email",
+        "description": "Downloads an email in EML file format."
+      },
+      {
+        "activity": "Download Email Attachments",
+        "description": "Downloads the attachments."
+      },
+      {
+        "activity": "Download File",
+        "description": "Downloads the specified file."
+      },
+      {
+        "activity": "For Each Email",
+        "description": "Repeats the contained activities for each email matching the filter criteria."
+      },
+      {
+        "activity": "For Each Event",
+        "description": "Iterates through a list of calendar events defined by the filter criteria. The output can be used in further activities."
+      },
+      {
+        "activity": "For Each File/Folder",
+        "description": "Iterates over a list of files and folders from OneDrive or SharePoint."
+      },
+      {
+        "activity": "For Each Row in Workbook",
+        "description": "Iterates through the rows in a specified range within a worksheet."
+      },
+      {
+        "activity": "For Each Sheet in Workbook",
+        "description": "Iterates through the sheets within a workbook."
+      },
+      {
+        "activity": "Forward Email",
+        "description": "Forwards an email to new recipients."
+      },
+      {
+        "activity": "Forward Event",
+        "description": "Forwards an event to all the specified attendees."
+      },
+      {
+        "activity": "Get Email By Id",
+        "description": "Retrieves the email with the specified ID."
+      },
+      {
+        "activity": "Get Email List",
+        "description": "Retrieve a list of emails from the specified folder that matches the filter criteria"
+      },
+      {
+        "activity": "Get File List",
+        "description": "Retrieves a list of files from the specified OneDrive or SharePoint location."
+      },
+      {
+        "activity": "Get File/Folder",
+        "description": "Gets a file or folder from OneDrive or SharePoint to use in other activities."
+      },
+      {
+        "activity": "Get Newest Email",
+        "description": "Returns the most recent email matching the search criteria."
+      },
+      {
+        "activity": "Mark Email as Read/Unread",
+        "description": "Marks an email as read or unread."
+      },
+      {
+        "activity": "Move Email",
+        "description": "Moves an email to a folder within the same mailbox."
+      },
+      {
+        "activity": "Move File/Folder",
+        "description": "Moves a file or folder to the specified destination folder in OneDrive or SharePoint."
+      },
+      {
+        "activity": "Read Cell",
+        "description": "Reads the information from the indicated cell for subsequent activities like Write Cell."
+      },
+      {
+        "activity": "Read Range",
+        "description": "Reads and saves the information from an Excel Workbook\u2019s range for subsequent activities like Write Range."
+      },
+      {
+        "activity": "Rename Sheet",
+        "description": "Rename a sheet from the specified workbook."
+      },
+      {
+        "activity": "Reply To Email",
+        "description": "Replies to an email."
+      },
+      {
+        "activity": "Respond to Event Invitation",
+        "description": "Defines a reply to an event invitation."
+      },
+      {
+        "activity": "Send Email",
+        "description": "Sends an email message."
+      },
+      {
+        "activity": "Set Email Categories",
+        "description": "Assigns categories to an email."
+      },
+      {
+        "activity": "Share File/Folder",
+        "description": "Shares a file or folder with the specified recipients."
+      },
+      {
+        "activity": "Update Event",
+        "description": "Modifies and updates the properties of the chosen event. The properties left blank remain unchanged."
+      },
+      {
+        "activity": "Upload Files",
+        "description": "Uploads the specified files to OneDrive or SharePoint."
+      },
+      {
+        "activity": "Write Cell",
+        "description": "Writes information in the selected Workbook cell."
+      },
+      {
+        "activity": "Write Range",
+        "description": "Writes a data table to the indicated range from the selected Excel Workbook."
+      }
+    ]
+  },
+  {
+    "package": "Microsoft Azure OpenAI",
+    "activities": [
+      {
+        "activity": "Generate Chat Completion",
+        "description": "Given a user prompt, an optional instruction, and other optional inputs such as the Model ID, etc., generate a chat completion response"
+      },
+      {
+        "activity": "Generate Text Completion",
+        "description": "Given a prompt and other inputs such as the Model ID, etc., generate a text completion response"
+      }
+    ]
+  },
+  {
+    "package": "Microsoft Dynamics CRM",
+    "activities": [
+      {
+        "activity": "Close Lost Opportunity",
+        "description": "Choose this opportunity as lost and update the status"
+      },
+      {
+        "activity": "Close Won Opportunity",
+        "description": "Choose this opportunity as won and update the status"
+      },
+      {
+        "activity": "Create Account",
+        "description": "Create an account in Microsoft Dynamics 365 CRM"
+      },
+      {
+        "activity": "Create Contact",
+        "description": "Create a contact in Microsoft Dynamics 365 CRM"
+      },
+      {
+        "activity": "Create Lead",
+        "description": "Create a lead in Microsoft Dynamics 365 CRM"
+      },
+      {
+        "activity": "Create Opportunity",
+        "description": "Create opportunity in Microsoft Dynamics 365 CRM"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Microsoft Dynamics."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Microsoft Dynamics."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Microsoft Dynamics."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records in Microsoft Dynamics."
+      },
+      {
+        "activity": "Update Account",
+        "description": "Update an account in Microsoft Dynamics 365 CRM"
+      },
+      {
+        "activity": "Update Contact",
+        "description": "Update a contact in Microsoft Dynamics 365 CRM"
+      },
+      {
+        "activity": "Update Lead",
+        "description": "Update a lead in Microsoft Dynamics 365 CRM"
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Microsoft Dynamics."
+      }
+    ]
+  },
+  {
+    "package": "Microsoft Sentiment",
+    "activities": [
+      {
+        "activity": "Sentiment Analysis",
+        "description": "Analyze sentiment of a text."
+      }
+    ]
+  },
+  {
+    "package": "Microsoft Teams",
+    "activities": [
+      {
+        "activity": "Create Channel",
+        "description": "Create a new channel in a team."
+      },
+      {
+        "activity": "Create one on one chat",
+        "description": "Creates a chat between two members with user email."
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Microsoft Teams."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Microsoft Teams."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Microsoft Teams."
+      },
+      {
+        "activity": "Invite Channel Member",
+        "description": "Invites a member to the channel by email."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all the records of an object in Microsoft Teams."
+      },
+      {
+        "activity": "List Channels",
+        "description": "Retrieve the list of channels in team."
+      },
+      {
+        "activity": "Reply to a channel message",
+        "description": "Reply to a message in one of your teams channels with an option to attach one file or a sharepoint url."
+      },
+      {
+        "activity": "Send channel message",
+        "description": "Sends a message in one of your teams channels with an option to attach one file or a sharepoint url."
+      },
+      {
+        "activity": "Send chat message",
+        "description": "Sends a message in one of your chats with an option to attach one file or a sharepoint url."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Microsoft Teams."
+      }
+    ]
+  },
+  {
+    "package": "Microsoft Translator",
+    "activities": [
+      {
+        "activity": "Detect Language",
+        "description": "Detect language from text."
+      },
+      {
+        "activity": "Translate Language",
+        "description": "Translate a single text."
+      },
+      {
+        "activity": "Transliterate Language",
+        "description": "Transliterate a single text."
+      }
+    ]
+  },
+  {
+    "package": "Microsoft Vision",
+    "activities": [
+      {
+        "activity": "Analyze Image",
+        "description": "This activity extracts a rich set of visual features based on the image content. Supported image formats JPEG, PNG, GIF, BMP. Image size should be less than 4 MB."
+      },
+      {
+        "activity": "Describe Image",
+        "description": "This activity generates a description of an image in human readable language with complete sentences. Supported image formats JPEG, PNG, GIF, BMP. Image size should be less than 4 MB."
+      },
+      {
+        "activity": "Detect Objects",
+        "description": "This activity performs object detection on the specified image. Supported image formats JPEG, PNG, GIF, BMP. Image size should be less than 4 MB."
+      },
+      {
+        "activity": "Get Area of Interest",
+        "description": "This operation returns a bounding box around the most important area of the image. Supported image formats JPEG, PNG, GIF, BMP. Image size should be less than 4 MB."
+      },
+      {
+        "activity": "Get Read Result",
+        "description": "Fetches a read result for an existing Microsoft Vision operation ID."
+      },
+      {
+        "activity": "Get Thumbnail",
+        "description": "This operation generates a thumbnail image with the user-specified width and height. By default, the service analyzes the image, identifies the region of interest (ROI), and generates smart cropping coordinates based on the ROI. Supported image formats JPEG, PNG, GIF, BMP. Image size should be less than 4 MB."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records in Microsoft Vision."
+      },
+      {
+        "activity": "OCR",
+        "description": "Optical Character Recognition (OCR) detects text in an image and extracts the recognized characters into a machine-usable character stream. Supported image formats JPEG, PNG, GIF, BMP. Image size should be less than 4 MB."
+      },
+      {
+        "activity": "Read Text",
+        "description": "Activity optimized for text-heavy images and multi-page, mixed language, and mixed type (print \u2013 seven languages and handwritten \u2013 English only) documents. Supported image formats JPEG, PNG, BMP, PDF and TIFF. Image size should be less than 50 MB."
+      },
+      {
+        "activity": "Tag Image",
+        "description": "This activity generates a list of words, or tags, that are relevant to the content of the supplied image. Supported image formats JPEG, PNG, GIF, BMP. Image size should be less than 4 MB."
+      }
+    ]
+  },
+  {
+    "package": "NetIQ eDirectory",
+    "activities": [
+      {
+        "activity": "Add Computer to Group",
+        "description": "Adds a computer to the specified group."
+      },
+      {
+        "activity": "Add Group to Group",
+        "description": "Adds a group to another group."
+      },
+      {
+        "activity": "Add Object to Group",
+        "description": "Adds an object to a group."
+      },
+      {
+        "activity": "Add User to Group",
+        "description": "Adds a user account to a group."
+      },
+      {
+        "activity": "Change User Password",
+        "description": "Changes the password of a user account."
+      },
+      {
+        "activity": "Computer Exists",
+        "description": "Checks if a computer exists in the directory."
+      },
+      {
+        "activity": "Create Computer",
+        "description": "Creates a new computer in the directory."
+      },
+      {
+        "activity": "Create Group",
+        "description": "Creates a new group in the directory."
+      },
+      {
+        "activity": "Create Organizational Unit",
+        "description": "Creates a new Organizational Unit within directory"
+      },
+      {
+        "activity": "Create User",
+        "description": "Creates a new user account in the directory."
+      },
+      {
+        "activity": "Delete Computer",
+        "description": "Deletes a computer from the directory."
+      },
+      {
+        "activity": "Delete Group",
+        "description": "Deletes a group from the directory."
+      },
+      {
+        "activity": "Delete Object",
+        "description": "Permanently deletes an object from the directory."
+      },
+      {
+        "activity": "Delete Organizational Unit",
+        "description": "Deletes a organizational unit within directory"
+      },
+      {
+        "activity": "Delete User",
+        "description": "Permanently deletes a user account from the directory."
+      },
+      {
+        "activity": "Force Password Change",
+        "description": "Forces the user to change password at the next login."
+      },
+      {
+        "activity": "Get Computer Status",
+        "description": "Retrieves the active status of a computer."
+      },
+      {
+        "activity": "Get Computers in Group",
+        "description": "Retrieves the list of computers belonging to the specified group."
+      },
+      {
+        "activity": "Get Object Distinguished Name",
+        "description": "Retrieves the distinguished name of a given object."
+      },
+      {
+        "activity": "Get Object Properties",
+        "description": "Retrieves the properties of a given object."
+      },
+      {
+        "activity": "Get Objects by Filter",
+        "description": "Retrieves the list of directory objects based on an input filter."
+      },
+      {
+        "activity": "Get Objects by LDAP Filter",
+        "description": "Retrieves the list of directory objects matching an LDAP (Lightweight Directory Access Protocol) filter."
+      },
+      {
+        "activity": "Get Password Expiration Date",
+        "description": "Retrieves the password expiration date for the specified user."
+      },
+      {
+        "activity": "Get User Expiration Date",
+        "description": "Retrieves the expiration date for a given user account."
+      },
+      {
+        "activity": "Get User Groups",
+        "description": "Retrieves the list of groups a user account is a member of."
+      },
+      {
+        "activity": "Get User Status",
+        "description": "Retrieves the lock and active status of a user account."
+      },
+      {
+        "activity": "Get Users in Group",
+        "description": "Retrieves the list of user accounts belonging to the specified group."
+      },
+      {
+        "activity": "Group Exists",
+        "description": "Checks if a group exists in the directory."
+      },
+      {
+        "activity": "Is Object Member of Group",
+        "description": "Checks whether a given object belongs to a group."
+      },
+      {
+        "activity": "Move Object",
+        "description": "Moves an object to a new location in the directory."
+      },
+      {
+        "activity": "NetIQ eDirectory Scope",
+        "description": "Connects to LDAP server and provides a scope for other NetIQeDirectory activities."
+      },
+      {
+        "activity": "Remove Computer from Group",
+        "description": "Removes a computer from the specified group."
+      },
+      {
+        "activity": "Remove Group from Group",
+        "description": "Removes a group from another group."
+      },
+      {
+        "activity": "Remove Object from Group",
+        "description": "Removes an object from a group."
+      },
+      {
+        "activity": "Remove User from Group",
+        "description": "Removes a user account from a group."
+      },
+      {
+        "activity": "Rename Object",
+        "description": "Renames a directory object."
+      },
+      {
+        "activity": "Set Computer Status",
+        "description": "Sets the active status of a computer."
+      },
+      {
+        "activity": "Set User Expiration Date",
+        "description": "Sets the expiration date for a given user account."
+      },
+      {
+        "activity": "Set User Status",
+        "description": "Sets the status of a user account."
+      },
+      {
+        "activity": "Update Object Properties",
+        "description": "Updates the specified properties of an object."
+      },
+      {
+        "activity": "User Exists",
+        "description": "Checks if a user account exists in the directory."
+      },
+      {
+        "activity": "Validate User Credentials",
+        "description": "Validate a user\u2019s credentials against the current directory."
+      }
+    ]
+  },
+  {
+    "package": "OpenAI",
+    "activities": [
+      {
+        "activity": "Generate Chat Completion",
+        "description": "Given a user prompt, an optional instruction, and other optional inputs such as the Model ID, etc., generate a chat completion response"
+      },
+      {
+        "activity": "Generate Text Completion",
+        "description": "Given a prompt and other inputs such as the Model ID, etc., generate a text completion response"
+      }
+    ]
+  },
+  {
+    "package": "Oracle Eloqua",
+    "activities": [
+      {
+        "activity": "Create a contact",
+        "description": "Create a new contact"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Oracle Eloqua"
+      },
+      {
+        "activity": "Get contact by email",
+        "description": "Gets a single contact via Email"
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Oracle Eloqua"
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Oracle Eloqua"
+      },
+      {
+        "activity": "Invoke Method",
+        "description": "Invokes a Eloqua API operation"
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records in Oracle Eloqua"
+      },
+      {
+        "activity": "List contact segments",
+        "description": "Retrieves a list of existing contact segments"
+      },
+      {
+        "activity": "List contacts",
+        "description": "Retrieves a list of contacts"
+      },
+      {
+        "activity": "Update a contact",
+        "description": "Update a contact"
+      },
+      {
+        "activity": "Update a contact segment",
+        "description": "Updates a contact segment according the contact segment ID or contact segment name"
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Oracle Eloqua"
+      },
+      {
+        "activity": "Upload Image File",
+        "description": "Uploads an image file to Eloqua"
+      },
+      {
+        "activity": "Upsert Record",
+        "description": "Replaces a record in Oracle Eloqua"
+      }
+    ]
+  },
+  {
+    "package": "Oracle NetSuite",
+    "activities": [
+      {
+        "activity": "Attach File",
+        "description": "Attaches a file to a record in NetSuite."
+      },
+      {
+        "activity": "Create Basic Company Customer",
+        "description": "Creates a basic customer of type company."
+      },
+      {
+        "activity": "Create Basic Company Vendor",
+        "description": "Creates a basic vendor of type company."
+      },
+      {
+        "activity": "Create Basic Contact",
+        "description": "Creates and associates a contact to a company."
+      },
+      {
+        "activity": "Create Basic Individual Customer",
+        "description": "Creates a basic customer of type individual."
+      },
+      {
+        "activity": "Create Basic Individual Vendor",
+        "description": "Creates a basic vendor of type individual."
+      },
+      {
+        "activity": "Create Basic Support Case",
+        "description": "Creates a basic support case."
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in NetSuite."
+      },
+      {
+        "activity": "Detach File",
+        "description": "Detaches a file from a record in NetSuite."
+      },
+      {
+        "activity": "Download File",
+        "description": "Downloads a file from the file cabinet in NetSuite."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in NetSuite."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in NetSuite."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records in NetSuite."
+      },
+      {
+        "activity": "Update Basic Company Customer",
+        "description": "Updates a basic customer of type company (without addressbook details)."
+      },
+      {
+        "activity": "Update Basic Company Vendor",
+        "description": "Updates a basic vendor of type company (without addressbook details)."
+      },
+      {
+        "activity": "Update Basic Contact",
+        "description": "Updates and associates a contact to a company customer."
+      },
+      {
+        "activity": "Update Basic Individual Customer",
+        "description": "Updates a basic customer of type individual in Netsuite(without address book details)."
+      },
+      {
+        "activity": "Update Basic Individual Vendor",
+        "description": "Updates a basic individual vendor in Netsuite(without address book details)."
+      },
+      {
+        "activity": "Update Basic Support Case",
+        "description": "Updates a basic support case."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in NetSuite."
+      },
+      {
+        "activity": "Upload File",
+        "description": "Uploads a file to the file cabinet in NetSuite."
+      }
+    ]
+  },
+  {
+    "package": "PagerDuty",
+    "activities": [
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in PagerDuty."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in PagerDuty."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in PagerDuty."
+      },
+      {
+        "activity": "Invoke Operation",
+        "description": "Invokes a PagerDuty operation."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all the records of an object in PagerDuty."
+      },
+      {
+        "activity": "List Incidents",
+        "description": "List incidents."
+      },
+      {
+        "activity": "List Services",
+        "description": "List services."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Replaces a record in PagerDuty."
+      }
+    ]
+  },
+  {
+    "package": "QuickBooks Online",
+    "activities": [
+      {
+        "activity": "Delete Attachment",
+        "description": "Delete an attachment in QuickBooks Online"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in QuickBooks Online."
+      },
+      {
+        "activity": "Get Attachment",
+        "description": "Get an attachment in QuickBooks Online."
+      },
+      {
+        "activity": "Get Attachment Download Link",
+        "description": "Get an attachment link to download a file from QuickBooks Online"
+      },
+      {
+        "activity": "Get Customer",
+        "description": "Retrieves a customer in QuickBooks Online"
+      },
+      {
+        "activity": "Get Item",
+        "description": "Retrieves a item in QuickBooks Online"
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in QuickBooks Online."
+      },
+      {
+        "activity": "Get Vendor",
+        "description": "Retrieves a vendor in QuickBooks Online"
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in QuickBooks Online."
+      },
+      {
+        "activity": "List All Items",
+        "description": "Lists all items in QuickBooks Online."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records for an object in QuickBooks Online"
+      },
+      {
+        "activity": "List Attachments",
+        "description": "List attachments in QuickBooks Online."
+      },
+      {
+        "activity": "Quick Create Customer",
+        "description": "Quickly create a customer in QuickBooks Online."
+      },
+      {
+        "activity": "Quick Create Item",
+        "description": "Quick create a item in QuickBooks Online."
+      },
+      {
+        "activity": "Quick Create Vendor",
+        "description": "Quickly create a vendor in QuickBooks Online."
+      },
+      {
+        "activity": "Quick Update Customer",
+        "description": "Quickly update an existing customer in QuickBooks Online for list of fields available"
+      },
+      {
+        "activity": "Quick Update Item",
+        "description": "Update an existing item in QuickBooks Online."
+      },
+      {
+        "activity": "Quick Update Vendor",
+        "description": "Update an existing vendor in QuickBooks Online for list of fields available"
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in QuickBooks Online."
+      }
+    ]
+  },
+  {
+    "package": "RandomizingTools",
+    "activities": [
+      {
+        "activity": "Random Big Number",
+        "description": "Returns a random number, from lowest possible minimum -9,223,372,036,854,775,808 to highest possible maximum +9,223,372,036,854,775,807."
+      },
+      {
+        "activity": "Random Number",
+        "description": "Returns a random number, from lowest possible minimum -2,147,483,648 to highest possible maximum +2,147,483,647."
+      }
+    ]
+  },
+  {
+    "package": "Salesforce",
+    "activities": [
+      {
+        "activity": "Add File to Record",
+        "description": "Add an uploaded file to a record in Salesforce."
+      },
+      {
+        "activity": "Create Account",
+        "description": "Create an account in Salesforce"
+      },
+      {
+        "activity": "Create Contact",
+        "description": "Create a contact in Salesforce"
+      },
+      {
+        "activity": "Create Lead",
+        "description": "Create a lead in Salesforce"
+      },
+      {
+        "activity": "Create Opportunity",
+        "description": "Create opportunity in Salesforce"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Salesforce."
+      },
+      {
+        "activity": "Get Account",
+        "description": "Retrieve the information of an account"
+      },
+      {
+        "activity": "Get Contact",
+        "description": "Retrieve the information of a contact"
+      },
+      {
+        "activity": "Get Document from File Version",
+        "description": "Retrieve the document ID associated with the uploaded file version"
+      },
+      {
+        "activity": "Get Lead",
+        "description": "Retrieve the information of a lead"
+      },
+      {
+        "activity": "Get Opportunity",
+        "description": "Retrieve the information of an opportunity"
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Salesforce."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Salesforce."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records in Salesforce."
+      },
+      {
+        "activity": "Search Records",
+        "description": "Search for one or more records of a standard or custom Salesforce object such as Lead, Opportunity etc. using a filter criteria"
+      },
+      {
+        "activity": "Update Account",
+        "description": "Update an account in Salesforce"
+      },
+      {
+        "activity": "Update Contact",
+        "description": "Update a contact in Salesforce"
+      },
+      {
+        "activity": "Update Lead",
+        "description": "Update a lead in Salesforce"
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Salesforce."
+      },
+      {
+        "activity": "Upload File",
+        "description": "Upload a file to Salesforce"
+      }
+    ]
+  },
+  {
+    "package": "Salesloft",
+    "activities": [
+      {
+        "activity": "Create Person",
+        "description": "Creates a Person."
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Delete a record in Salesloft"
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Salesloft"
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Insert a record in Salesloft"
+      },
+      {
+        "activity": "List All Records",
+        "description": "List All Records in Salesloft"
+      },
+      {
+        "activity": "Update Person",
+        "description": "Updates a Person."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Update a record in Salesloft"
+      },
+      {
+        "activity": "Update Task",
+        "description": "Updates a task."
+      }
+    ]
+  },
+  {
+    "package": "SendGrid",
+    "activities": [
+      {
+        "activity": "Create Marketing List",
+        "description": "This endpoint creates a new contacts list."
+      },
+      {
+        "activity": "Create New Batch ID",
+        "description": "To generate a new batch ID."
+      },
+      {
+        "activity": "Get Contact Details By Email",
+        "description": "Returns the full details and all fields for the specified contact."
+      },
+      {
+        "activity": "Get Marketing List Details",
+        "description": "This endpoint returns data about a specific list."
+      },
+      {
+        "activity": "Invoke Method",
+        "description": "Invokes a SendGrid API Method"
+      },
+      {
+        "activity": "Retrieve Marketing Lists",
+        "description": "This endpoint returns an array of all of your contact lists."
+      },
+      {
+        "activity": "Send Email Basic",
+        "description": "Sending an email with basic details"
+      },
+      {
+        "activity": "Upsert Contact",
+        "description": "Allows the upsert (insert or update) of up to 30,000 contacts, or 6MB of data, whichever is lower."
+      }
+    ]
+  },
+  {
+    "package": "ServiceNow",
+    "activities": [
+      {
+        "activity": "Add Attachment",
+        "description": "Add an attachment to an existing record"
+      },
+      {
+        "activity": "Create Incident Task",
+        "description": "Create an incident task to communicate with and request work from assignment groups other than the one that is mentioned for the incident."
+      },
+      {
+        "activity": "Create New Incident",
+        "description": "Create a new incident"
+      },
+      {
+        "activity": "Delete Attachment",
+        "description": "Deletes an existing attachment from a record"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in ServiceNow."
+      },
+      {
+        "activity": "Download Attachment",
+        "description": "Download an existing attachment from a record."
+      },
+      {
+        "activity": "Get Attachment",
+        "description": "Returns existing attachment metadata from a record"
+      },
+      {
+        "activity": "Get Incident Task",
+        "description": "Get a specific incident task."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in ServiceNow."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in ServiceNow."
+      },
+      {
+        "activity": "List All Attachments",
+        "description": "Returns all existing attachment metadata from a record"
+      },
+      {
+        "activity": "List all Incident Tasks",
+        "description": "List all incident tasks."
+      },
+      {
+        "activity": "List all Incidents",
+        "description": "Search for incidents based on criteria"
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records in ServiceNow."
+      },
+      {
+        "activity": "Update Incident",
+        "description": "Update an incident"
+      },
+      {
+        "activity": "Update Incident Task",
+        "description": "Update an incident task."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in ServiceNow."
+      }
+    ]
+  },
+  {
+    "package": "Slack",
+    "activities": [
+      {
+        "activity": "Add or Replace Users of User Group",
+        "description": "Adds or overwrites the entire list of users in a user group of the connected workspace."
+      },
+      {
+        "activity": "Create Channel",
+        "description": "Creates a public or private channel"
+      },
+      {
+        "activity": "Create User Group",
+        "description": "Create a user group"
+      },
+      {
+        "activity": "Delete File",
+        "description": "Delete the file from Slack"
+      },
+      {
+        "activity": "Get File Info",
+        "description": "Retrieve the file info from Slack"
+      },
+      {
+        "activity": "Get User by Email",
+        "description": "Get the information of a user in the workspace by providing the email address."
+      },
+      {
+        "activity": "Invite Users to Channel",
+        "description": "Invite one or more users to a channel"
+      },
+      {
+        "activity": "Invoke Operation",
+        "description": "Invokes a Slack API Method"
+      },
+      {
+        "activity": "List All Channels",
+        "description": "Retrieves the list of conversations i.e. public channels, private channels, mpim or im in Slack"
+      },
+      {
+        "activity": "List All User groups",
+        "description": "List all user groups in the connected workspace"
+      },
+      {
+        "activity": "List All Users",
+        "description": "List all users in the connected workspace."
+      },
+      {
+        "activity": "Remove User from Channel",
+        "description": "Removes a user from a channel"
+      },
+      {
+        "activity": "Send File to Channel",
+        "description": "Upload and send a file to one or more channels in Slack"
+      },
+      {
+        "activity": "Send Message to Channel",
+        "description": "Send message to a public or private channel"
+      },
+      {
+        "activity": "Send Message to User",
+        "description": "Send a message to an individual user"
+      },
+      {
+        "activity": "Send Reply",
+        "description": "Send a reply to a message in channel"
+      }
+    ]
+  },
+  {
+    "package": "Smartsheet",
+    "activities": [
+      {
+        "activity": "Add Group Member",
+        "description": "Adds a group member to a group in Smartsheet."
+      },
+      {
+        "activity": "Add Row",
+        "description": "Adds a row within a Sheet in Smartsheet"
+      },
+      {
+        "activity": "Attach Url To Comment",
+        "description": "Attaches file url to a comment in Smartsheet."
+      },
+      {
+        "activity": "Attach Url To Row",
+        "description": "Attaches file url to a row in Smartsheet."
+      },
+      {
+        "activity": "Attach Url To Sheet",
+        "description": "Attaches file url to a sheet in Smartsheet."
+      },
+      {
+        "activity": "Create Basic Sheet",
+        "description": "Creates a sheet from scratch in the user's Sheets folder (Home)"
+      },
+      {
+        "activity": "Create Group",
+        "description": "Creates a group in Smartsheet. User needs to have the necessary permission"
+      },
+      {
+        "activity": "Delete Column",
+        "description": "Deletes a column in Smartsheet."
+      },
+      {
+        "activity": "Delete Group",
+        "description": "Deletes a group in Smartsheet. User needs to have the necessary permission"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Smartsheet."
+      },
+      {
+        "activity": "Delete Row",
+        "description": "Deletes a row in Smartsheet."
+      },
+      {
+        "activity": "Delete Sheet",
+        "description": "Deletes a sheet in Smartsheet."
+      },
+      {
+        "activity": "Delete Sheet Attachment",
+        "description": "Deletes an attachment from a sheet in Smartsheet."
+      },
+      {
+        "activity": "Find First Column",
+        "description": "Retrieves the first column for a sheet in Smartsheet."
+      },
+      {
+        "activity": "Find First Group",
+        "description": "Retrieves the first group in Smartsheet."
+      },
+      {
+        "activity": "Find First Record",
+        "description": "Retrieves the first record for your selected object in Smartsheet."
+      },
+      {
+        "activity": "Find First Sheet",
+        "description": "Retrieves the first sheet in Smartsheet."
+      },
+      {
+        "activity": "Find First Sheet Attachment",
+        "description": "Retrieves the first attachment for a sheet in Smartsheet."
+      },
+      {
+        "activity": "Get Attachment URL",
+        "description": "Retrieves a sheet attachment in Smartsheet."
+      },
+      {
+        "activity": "Get Column",
+        "description": "Retrieves a column for a sheet in Smartsheet."
+      },
+      {
+        "activity": "Get Group",
+        "description": "Retrieves a group in Smartsheet."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Smartsheet."
+      },
+      {
+        "activity": "Get Row",
+        "description": "Retrieves a row for a sheet in Smartsheet."
+      },
+      {
+        "activity": "Get Sheet",
+        "description": "Retrieves a sheet in Smartsheet."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Smartsheet."
+      },
+      {
+        "activity": "Invoke Method",
+        "description": "Invokes a Smartsheet API operation"
+      },
+      {
+        "activity": "List All Columns",
+        "description": "Lists all columns for a sheet in Smartsheet."
+      },
+      {
+        "activity": "List All Organization Groups",
+        "description": "Lists all groups in Smartsheet."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all records for an object in Smartsheet"
+      },
+      {
+        "activity": "List All Sheet Attachments",
+        "description": "Lists all attachments for a sheet in Smartsheet."
+      },
+      {
+        "activity": "List All Sheets",
+        "description": "Lists all sheets in Smartsheet."
+      },
+      {
+        "activity": "List Columns",
+        "description": "Lists a page of columns for a sheet in Smartsheet."
+      },
+      {
+        "activity": "List Organization Groups",
+        "description": "Lists a page of groups in Smartsheet."
+      },
+      {
+        "activity": "List Records",
+        "description": "Lists a page of records in Smartsheet."
+      },
+      {
+        "activity": "List Sheet Attachments",
+        "description": "Lists a page of attachments for a sheet in Smartsheet."
+      },
+      {
+        "activity": "List Sheets",
+        "description": "Lists a page of sheets in Smartsheet."
+      },
+      {
+        "activity": "Quick Add Column",
+        "description": "Adds a column within a Sheet in Smartsheet with limited configurations"
+      },
+      {
+        "activity": "Quick Update Column",
+        "description": "Updates a column within a sheet in Smartsheet."
+      },
+      {
+        "activity": "Remove Group Member",
+        "description": "Removes a group member to a group in Smartsheet."
+      },
+      {
+        "activity": "Search Everything",
+        "description": "Searches for everything in Smartsheet based on a query string"
+      },
+      {
+        "activity": "Search Sheet",
+        "description": "Searches for everything inside a sheet in Smartsheet based on a query string"
+      },
+      {
+        "activity": "Update Group",
+        "description": "Updates a group in Smartsheet. User needs to have the necessary permission"
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Smartsheet"
+      },
+      {
+        "activity": "Update Row",
+        "description": "Updates a row within a sheet in Smartsheet."
+      },
+      {
+        "activity": "Update Sheet",
+        "description": "Updates a sheet in Smartsheet."
+      }
+    ]
+  },
+  {
+    "package": "Sugar Enterprise",
+    "activities": [
+      {
+        "activity": "Create basic account",
+        "description": "Creates an account in Sugar CRM"
+      },
+      {
+        "activity": "Create basic contact",
+        "description": "Creates a contact in Sugar CRM"
+      },
+      {
+        "activity": "Delete an Account",
+        "description": "Delete account information."
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Sugar Enterprise."
+      },
+      {
+        "activity": "Get Account Details",
+        "description": "Retrieve an account information."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Sugar Enterprise."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Sugar Enterprise."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all the records in Sugar Enterprise."
+      },
+      {
+        "activity": "Update basic account",
+        "description": "Updates an account in Sugar CRM."
+      },
+      {
+        "activity": "Update basic contact",
+        "description": "Updates a contact in Sugar CRM."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Sugar Enterprise."
+      }
+    ]
+  },
+  {
+    "package": "Sugar Professional",
+    "activities": [
+      {
+        "activity": "Create basic account",
+        "description": "Creates an account in Sugar CRM"
+      },
+      {
+        "activity": "Create basic contact",
+        "description": "Creates a contact in Sugar CRM"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Sugar Professional."
+      },
+      {
+        "activity": "Get Account Details",
+        "description": "Retrieve an account information."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Sugar Professional."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Sugar Professional"
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all the records in Sugar Professional."
+      },
+      {
+        "activity": "Update basic account",
+        "description": "Updates an account in Sugar CRM."
+      },
+      {
+        "activity": "Update basic contact",
+        "description": "Updates a contact in Sugar CRM."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Sugar Professional."
+      }
+    ]
+  },
+  {
+    "package": "Sugar Sell",
+    "activities": [
+      {
+        "activity": "Create basic account",
+        "description": "Creates an account in Sugar CRM"
+      },
+      {
+        "activity": "Create basic contact",
+        "description": "Creates a contact in Sugar CRM"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Sugar Sell."
+      },
+      {
+        "activity": "Get Account Details",
+        "description": "Retrieve an account information."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Sugar Sell."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Sugar Sell."
+      },
+      {
+        "activity": "List all opportunities",
+        "description": "Retrieve all opportunities from Sugar Sell."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all the records in Sugar Sell."
+      },
+      {
+        "activity": "Update basic account",
+        "description": "Updates an account in Sugar CRM."
+      },
+      {
+        "activity": "Update basic contact",
+        "description": "Updates a contact in Sugar CRM."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Sugar Sell."
+      }
+    ]
+  },
+  {
+    "package": "Sugar Serve",
+    "activities": [
+      {
+        "activity": "Create basic account",
+        "description": "Creates an account in Sugar CRM"
+      },
+      {
+        "activity": "Create basic contact",
+        "description": "Creates a contact in Sugar CRM"
+      },
+      {
+        "activity": "Create Case",
+        "description": "Create a Case."
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Sugar Serve."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Sugar Serve."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Sugar Serve."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all the records in Sugar Serve."
+      },
+      {
+        "activity": "Update basic account",
+        "description": "Updates an account in Sugar CRM."
+      },
+      {
+        "activity": "Update basic contact",
+        "description": "Updates a contact in Sugar CRM."
+      },
+      {
+        "activity": "Update Case",
+        "description": "Update a Case information."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Updates a record in Sugar Serve."
+      }
+    ]
+  },
+  {
+    "package": "Twilio",
+    "activities": [
+      {
+        "activity": "Create record",
+        "description": "Creates a record in Twilio."
+      },
+      {
+        "activity": "Delete record",
+        "description": "Deletes a record in Twilio."
+      },
+      {
+        "activity": "Get record",
+        "description": "Retrieves a record in Twilio."
+      },
+      {
+        "activity": "List all records",
+        "description": "Lists all the records of an object in Twilio."
+      },
+      {
+        "activity": "List available local numbers",
+        "description": "Gets a list of available local phone numbers"
+      },
+      {
+        "activity": "List available mobile phone numbers",
+        "description": "Gets a list of available mobile phone numbers."
+      },
+      {
+        "activity": "List available toll-free phone numbers",
+        "description": "Get a list of available toll-free phone numbers."
+      },
+      {
+        "activity": "List records",
+        "description": "Lists a page of records in Twilio."
+      },
+      {
+        "activity": "Make a call",
+        "description": "Make a voice call to a phone number."
+      },
+      {
+        "activity": "Replace record",
+        "description": "Replaces a record in Twilio."
+      },
+      {
+        "activity": "Send message",
+        "description": "Send an SMS or whatsapp message to a phone number."
+      }
+    ]
+  },
+  {
+    "package": "Twitter",
+    "activities": [
+      {
+        "activity": "Delete Record",
+        "description": "Deletes a record in Twitter."
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Twitter."
+      },
+      {
+        "activity": "Get User by Username",
+        "description": "Get any user information using Twitter username."
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Inserts a record in Twitter."
+      },
+      {
+        "activity": "Invoke Operation",
+        "description": "Invokes a Twitter operation."
+      },
+      {
+        "activity": "List all Followers",
+        "description": "List all the users that follow the given user in Twitter."
+      },
+      {
+        "activity": "List all Following",
+        "description": "List all the users that are being followed by the given user in Twitter."
+      },
+      {
+        "activity": "List All Records",
+        "description": "Lists all the records of an object in Twitter."
+      },
+      {
+        "activity": "List all User Mentions",
+        "description": "Ten most recent tweets where the given user is mentioned."
+      },
+      {
+        "activity": "List all User Tweets",
+        "description": "List all the tweets of a user in Twitter."
+      },
+      {
+        "activity": "List all Users that Liked",
+        "description": "List all the users that liked a tweet in Twitter."
+      },
+      {
+        "activity": "List all Users that Retweeted",
+        "description": "List all the users that retweeted a tweet in Twitter."
+      },
+      {
+        "activity": "List Users by Usernames",
+        "description": "List user information by usernames in Twitter."
+      },
+      {
+        "activity": "Retweet Tweet",
+        "description": "Allows the user to Retweet the target Tweet."
+      },
+      {
+        "activity": "Search Tweets",
+        "description": "The recent search endpoint returns Tweets from the last seven days that match a search query."
+      },
+      {
+        "activity": "Send Tweet",
+        "description": "Send a tweet using Twitter."
+      },
+      {
+        "activity": "Update Record",
+        "description": "Replaces a record in Twitter."
+      }
+    ]
+  },
+  {
+    "package": "UiPath.Cryptography.Activities",
+    "activities": [
+      {
+        "activity": "Decrypt File",
+        "description": "Decrypts a file based on a specified key encoding and algorithm."
+      },
+      {
+        "activity": "Decrypt Text",
+        "description": "Decrypts text based on a specified key encoding and algorithm."
+      },
+      {
+        "activity": "Encrypt File",
+        "description": "Encrypts a file with a key based on a specified key encoding and algorithm."
+      },
+      {
+        "activity": "Encrypt Text",
+        "description": "Encrypts a string with a key based on a specified key encoding and algorithm."
+      },
+      {
+        "activity": "Hash File",
+        "description": "Hashes a file with a key using a specified algorithm and returns the hexadecimal string representation of the resulting hash. It supports hashing algorithms with a key and without a key."
+      },
+      {
+        "activity": "Hash Text",
+        "description": "Hashes a string with a key using a specified algorithm and returns the hexadecimal string representation of the resulting hash. It supports hashing algorithms with a key and without a key."
+      }
+    ]
+  },
+  {
+    "package": "UiPath.DataService.Activities",
+    "activities": [
+      {
+        "activity": "Create Entity Record",
+        "description": "Creates a new record for the selected Entity in Data Service"
+      },
+      {
+        "activity": "Create Multiple Entity Records",
+        "description": "Creates multiple records in bulk for the selected Entity in Data Service"
+      },
+      {
+        "activity": "Delete Entity Record",
+        "description": "Deletes a specified record for the selected Entity from Data Service"
+      },
+      {
+        "activity": "Delete File from Record Field",
+        "description": "Deletes a file from a specified field of an entity record from Data Service. It will return nothing if no file is present."
+      },
+      {
+        "activity": "Delete Multiple Entity Records",
+        "description": "Deletes multiple records in bulk for the selected Entity from Data Service."
+      },
+      {
+        "activity": "Download File from Record Field",
+        "description": "Downloads a file from a specified field of an entity record from Data Service. It will return nothing if no file is present."
+      },
+      {
+        "activity": "Get Entity Record By Id",
+        "description": "Reads an existing record for the selected Entity from Data Service"
+      },
+      {
+        "activity": "Query Entity Records",
+        "description": "Retrieves a list of records for the selected Entity from Data Service, according to specified filters."
+      },
+      {
+        "activity": "Update Entity Record",
+        "description": "Updates an existing record for the selected Entity in Data Service"
+      },
+      {
+        "activity": "Update Multiple Entity Records",
+        "description": "Updates multiple existing records in bulk for the selected Entity in Data Service"
+      },
+      {
+        "activity": "Upload File to Record Field",
+        "description": "Uploads a file to a specified field of an entity record from Data Service. It will replace an existing file, if present, in specified field."
+      }
+    ]
+  },
+  {
+    "package": "UiPath.DocumentUnderstanding.Activities",
+    "activities": [
+      {
+        "activity": "Classify Document",
+        "description": "Classifies a document according to the configured Classifier."
+      },
+      {
+        "activity": "Create Document Validation Task",
+        "description": "Verify the extracted Document Data by creating a Document Validation Task in Action Center, without waiting for its completion"
+      },
+      {
+        "activity": "Create Validation Task and Wait",
+        "description": "Verify the extracted Document Data by creating a Document Validation Task in Action Center and waiting for its completion"
+      },
+      {
+        "activity": "Extract Document Data",
+        "description": "Extracts data from a document and stores the results into automatically generated variables."
+      },
+      {
+        "activity": "Extract PDF Images",
+        "description": "Extract all image assests from a PDF file"
+      },
+      {
+        "activity": "Extract PDF Page Range",
+        "description": "Extracts a range of pages from a PDF file"
+      },
+      {
+        "activity": "Get PDF Page Count",
+        "description": "Get the PDF file page count"
+      },
+      {
+        "activity": "Merge PDFs",
+        "description": "Merge multiple PDF files"
+      },
+      {
+        "activity": "Set PDF Password",
+        "description": "Set the PDF file's password settings"
+      },
+      {
+        "activity": "Wait for Document Validation Task & Resume",
+        "description": "Wait for the completion of a Document Validation Task"
+      }
+    ]
+  },
+  {
+    "package": "UiPath.Pipelines.Activities",
+    "activities": [
+      {
+        "activity": "Analyze",
+        "description": "Analyze Activity"
+      },
+      {
+        "activity": "Build",
+        "description": "Package an automation process"
+      },
+      {
+        "activity": "Clone",
+        "description": "Clone a git repository"
+      },
+      {
+        "activity": "Download Package",
+        "description": "Download package by name and version"
+      },
+      {
+        "activity": "Publish Package",
+        "description": "Publish package activity"
+      },
+      {
+        "activity": "Stage",
+        "description": "Container activity for reporting status to AutomationOps - Pipelines"
+      },
+      {
+        "activity": "Update Process",
+        "description": "Update process"
+      }
+    ]
+  },
+  {
+    "package": "UiPath.System.Activities",
+    "activities": [
+      {
+        "activity": "Add Data Column",
+        "description": "Adds a DataColumn to a specified DataTable."
+      },
+      {
+        "activity": "Add Data Row",
+        "description": "Adds a DataRow to a specified DataTable."
+      },
+      {
+        "activity": "Add Log Fields",
+        "description": "Adds custom log fields to each Log Message. "
+      },
+      {
+        "activity": "Add Queue Item",
+        "description": "Adds a new item in the queue. The status of the item will be New."
+      },
+      {
+        "activity": "Add To Collection",
+        "description": "Adds an item to a specified collection."
+      },
+      {
+        "activity": "Add Transaction Item",
+        "description": "Adds a new item in the queue and starts a transaction. The status of the item will be set to InProgress. Returns the item as a QueueItem variable."
+      },
+      {
+        "activity": "Append Items to Collection",
+        "description": "Appends one or more items at the end of the specified collection."
+      },
+      {
+        "activity": "Append Line",
+        "description": "Adds the specified text to a file after the existing content. If it does not already exist, the file is created."
+      },
+      {
+        "activity": "Break",
+        "description": "Exits the Loop activity (For Each, While, Do While) or Trigger Scope activity in which it is placed and continues the workflow execution with the activity that follows it"
+      },
+      {
+        "activity": "Build Collection",
+        "description": "Create a collection of items that have the same type as the first specified element."
+      },
+      {
+        "activity": "Bulk Add Queue Items",
+        "description": "Adds a collection of items from a Data Table to a queue. The status of the items will be New."
+      },
+      {
+        "activity": "Clear Collection",
+        "description": "Clears a specified collection of all items."
+      },
+      {
+        "activity": "Clear Data Table",
+        "description": "Clears the specified DataTable of all data."
+      },
+      {
+        "activity": "Collection to DataTable",
+        "description": "Converts a Collection to a DataTable."
+      },
+      {
+        "activity": "Comment",
+        "description": "Adds a comment into the workflow. "
+      },
+      {
+        "activity": "Compress/Zip Files",
+        "description": "Compresses given contents."
+      },
+      {
+        "activity": "Continue",
+        "description": "Skips the current iteration in a Loop activity (For Each, While, Do While) and continues the execution with the next iteration."
+      },
+      {
+        "activity": "Copy File",
+        "description": "Copies a specified file to another location."
+      },
+      {
+        "activity": "Copy Folder",
+        "description": "Copies a specified folder to another location."
+      },
+      {
+        "activity": "Create File",
+        "description": "Creates a file in the specified location."
+      },
+      {
+        "activity": "Create Folder",
+        "description": "Creates a folder in the specified location."
+      },
+      {
+        "activity": "Create List",
+        "description": "Creates a new empty list."
+      },
+      {
+        "activity": "Delay",
+        "description": "Delays workflow execution for a given duration."
+      },
+      {
+        "activity": "Delete File or Folder",
+        "description": "Deletes the file or folder in the specified location."
+      },
+      {
+        "activity": "Delete Queue Items",
+        "description": "Deletes items with the New state from a specified queue."
+      },
+      {
+        "activity": "Delete Storage File",
+        "description": "Deletes a certain file from the designated Orchestrator storage bucket"
+      },
+      {
+        "activity": "Disabled activities",
+        "description": "A container where you can add activities that won't be executed at runtime."
+      },
+      {
+        "activity": "Do While",
+        "description": "Executes contained activities first and then loops if the condition is True"
+      },
+      {
+        "activity": "Download Storage File",
+        "description": "Downloads a copy of a file in an Orchestrator storage bucket locally"
+      },
+      {
+        "activity": "Else if",
+        "description": "Models an If-Then-Else If-Else condition."
+      },
+      {
+        "activity": "Exists In Collection",
+        "description": "Checks if the given Item exists in the collection"
+      },
+      {
+        "activity": "Extract/Unzip Files",
+        "description": "Extracts all contents of a zipped (compressed) file."
+      },
+      {
+        "activity": "Filter Collection",
+        "description": "Filter a collection based on custom conditions"
+      },
+      {
+        "activity": "Filter Data Table",
+        "description": "Filters a DataTable by specifying conditions in the Filter widget. The activity can keep or delete rows according to the logical conditions that are specified in the properties."
+      },
+      {
+        "activity": "For Each",
+        "description": "Performs an activity or a series of activities on each element of an enumeration."
+      },
+      {
+        "activity": "For Each Row in Data Table",
+        "description": "Executes an action once for each row in the DataTable provided."
+      },
+      {
+        "activity": "Generate Data Table From Text",
+        "description": "Generate a DataTable from structured text."
+      },
+      {
+        "activity": "Get Asset",
+        "description": "Gets a specified asset by using a provided AssetName. If the asset is not global, it must be assigned to the local robot in order to be retrieved."
+      },
+      {
+        "activity": "Get Credential",
+        "description": "Gets a specified credential asset by using a provided Asset Name. If the credential asset is not global, it must be assigned to the local robot in order to be retrieved."
+      },
+      {
+        "activity": "Get Current Job Info",
+        "description": "Provides runtime job info such as process name and version, workflow name robot name and mode of execution."
+      },
+      {
+        "activity": "Get Jobs",
+        "description": "Retrieves a list of Orchestrator jobs according to a custom filter, using the Orchestrator API."
+      },
+      {
+        "activity": "Get Queue Items",
+        "description": "Retrieves a list of transactions from an indicated queue, according to multiple filters, such as creation date, priority, state and reference."
+      },
+      {
+        "activity": "Get Row Item",
+        "description": "Gets a value from a DataRow variable according to a specified column."
+      },
+      {
+        "activity": "Get Transaction Item",
+        "description": "Gets an item from the queue so that you can process it (start the transaction) and sets its status to In Progress."
+      },
+      {
+        "activity": "If",
+        "description": "Models an If-Then-Else condition."
+      },
+      {
+        "activity": "Invoke Code",
+        "description": "Synchronously invokes VB.NET or C# code, optionally passing it a list of input arguments. This activity can also return out arguments to the caller workflow."
+      },
+      {
+        "activity": "Invoke Process",
+        "description": "Invokes a process available on the current Robot. It is blocking and it ends just after the invoked process finishes."
+      },
+      {
+        "activity": "Join Data Tables",
+        "description": "Combines rows from two tables by using values common to each other, according to a Join rule."
+      },
+      {
+        "activity": "List Storage Files",
+        "description": "Lists the content of a certain directory in an Orchestrator storage bucket"
+      },
+      {
+        "activity": "Log Message",
+        "description": "Writes the specified diagnostic message at the specified level. These messages are also sent to Orchestrator and displayed in the Logs page."
+      },
+      {
+        "activity": "Lookup Data Table",
+        "description": "This activity searches for the value provided in the Lookup Value property inside the DataTable and returns the row index of the found cell. If the Target Column is set, it also returns the value from the cell with the specified Row."
+      },
+      {
+        "activity": "Match text",
+        "description": "Indicates whether the specified regular expression finds a match in the specified input string, using the specified matching options."
+      },
+      {
+        "activity": "Matches",
+        "description": "Searches an input string for all occurrences of a regular expression and returns all the successful matches."
+      },
+      {
+        "activity": "Merge Collections",
+        "description": "Combine collections in a new collection that contains all the elements"
+      },
+      {
+        "activity": "Merge Data Table",
+        "description": "Merges the specified DataTable with the current DataTable, indicating whether to preserve changes and how to handle missing schema in the current DataTable. "
+      },
+      {
+        "activity": "Modify Date",
+        "description": "Finds relative dates with operations including adding or subtracting days, finding the first or last day of the month, etc."
+      },
+      {
+        "activity": "Move File",
+        "description": "Moves a specified file to another location."
+      },
+      {
+        "activity": "Orchestrator HTTP Request",
+        "description": "Performs HTTP requests to the Orchestrator API by authenticating under the robot it is executed on."
+      },
+      {
+        "activity": "Output Data Table",
+        "description": "Writes a DataTable object to a string using the CSV format."
+      },
+      {
+        "activity": "Path Exists",
+        "description": "Checks if the specified path exists. The path can represent a file path or a directory path."
+      },
+      {
+        "activity": "Postpone Transaction Item",
+        "description": "Adds time parameters between which a transaction must be processed (not before Postpone Date and no later than Deadline Date)."
+      },
+      {
+        "activity": "Raise Alert",
+        "description": "Helps you add custom alerts in Orchestrator, with a selected severity."
+      },
+      {
+        "activity": "Read List Item",
+        "description": "Retrieves the value of a specific item in a list."
+      },
+      {
+        "activity": "Read Storage Text",
+        "description": "Returns the text content of a certain file in an Orchestrator storage bucket"
+      },
+      {
+        "activity": "Read Text File",
+        "description": "Copies all the characters from a specified text file."
+      },
+      {
+        "activity": "Remove Data Column",
+        "description": "Removes a DataColumn from a specified DataTable."
+      },
+      {
+        "activity": "Remove Data Row",
+        "description": "Removes a DataRow from a specified DataTable."
+      },
+      {
+        "activity": "Remove Duplicate Rows",
+        "description": "Removes the duplicate rows from a specified DataTable, keeping only the first occurrence."
+      },
+      {
+        "activity": "Remove From Collection",
+        "description": "Remove the specified element from a collection"
+      },
+      {
+        "activity": "Remove Log Fields",
+        "description": "Removes custom log fields to each Log Message."
+      },
+      {
+        "activity": "Repeat Number of Times",
+        "description": "Repeats a set of activities a specified number of times. Add the activities to repeat inside this activity."
+      },
+      {
+        "activity": "Replace",
+        "description": "Within a specified input string, replaces strings that match a regular expression pattern with a specified replacement string."
+      },
+      {
+        "activity": "Report Status",
+        "description": "Reports specified status text to the Executor"
+      },
+      {
+        "activity": "Reset Timer",
+        "description": "Resets the input timer provided as argument."
+      },
+      {
+        "activity": "Resume Timer",
+        "description": "Resumes the input timer provided as argument."
+      },
+      {
+        "activity": "Rethrow",
+        "description": "Throws an exception previously caught in an exception handling block."
+      },
+      {
+        "activity": "Retry Scope",
+        "description": "Retries the contained activities as long as the condition is not met or an error is thrown. "
+      },
+      {
+        "activity": "Sequence",
+        "description": "Executes a set of child activities according to a single, defined order."
+      },
+      {
+        "activity": "Set Asset",
+        "description": "Updates the value of an indicated asset, that is already available in Orchestrator, be it a global or a Per Robot asset."
+      },
+      {
+        "activity": "Set Credential",
+        "description": "Updates the value of an indicated credential asset, that is already available in Orchestrator, be it a global or a Per Robot asset."
+      },
+      {
+        "activity": "Set Transaction Progress",
+        "description": "Helps you create custom progress statuses for your In Progress transactions."
+      },
+      {
+        "activity": "Set Transaction Status",
+        "description": "Sets the status of a transaction item to Failed or Successful."
+      },
+      {
+        "activity": "Set Variable Value",
+        "description": "Save a value to use in later activities. The saved value can be used as input to another activity."
+      },
+      {
+        "activity": "Should Stop",
+        "description": "Checks if Stop was triggered in UiPath Orchestrator."
+      },
+      {
+        "activity": "Sort Data Table",
+        "description": "Sorts a datatable by ascending or descending order, based on the values of a specified column."
+      },
+      {
+        "activity": "Start Job",
+        "description": "Starts a job on Orchestrator and continue execution without waiting for the job to be finished."
+      },
+      {
+        "activity": "Start Timer",
+        "description": "Creates a new timer or restarts an existing one received as parameter"
+      },
+      {
+        "activity": "Stop Job",
+        "description": "Stops or kills a job on Orchestrator."
+      },
+      {
+        "activity": "Stop Timer",
+        "description": "Stop the timer previously started using the Start Timer Activity."
+      },
+      {
+        "activity": "Switch",
+        "description": "Executes the activities added in a single Case block out of multiple defined cases based on which case matches a specified expression."
+      },
+      {
+        "activity": "Terminate Workflow",
+        "description": "Terminates the running workflow instance, raises the System.Activities.WorkflowApplication.Completed event in the host, and reports error information. Once the workflow is terminated, it cannot be resumed."
+      },
+      {
+        "activity": "Text to Left/Right",
+        "description": "Gets the text to the left and right of the first occurrence of the indicated subtext."
+      },
+      {
+        "activity": "Throw",
+        "description": "Throws an exception."
+      },
+      {
+        "activity": "Timeout Scope",
+        "description": "Creates a scope with limited execution time. It throws a System.TimeoutException in case of timeout."
+      },
+      {
+        "activity": "Try Catch",
+        "description": "Contains activities to be executed by the workflow runtime in an exception handling block."
+      },
+      {
+        "activity": "Update List Item",
+        "description": "Updates the value of a specific item in a list. Add a Read list item activity after it to ensure you are using the updated value going forward."
+      },
+      {
+        "activity": "Update Row Item",
+        "description": "Assigns the specified value into the indicated column of a DataTable row."
+      },
+      {
+        "activity": "Upload Storage File",
+        "description": "Uploads a local file to the Orchestrator storage, in a certain bucket and at a certain path"
+      },
+      {
+        "activity": "Wait for Download",
+        "description": "Detects a file download from any application and waits for the download to complete before any further processing of the file in the automation."
+      },
+      {
+        "activity": "Wait Queue Item",
+        "description": "Waits for an item in the queue to be available so that you can process it (start the transaction) and sets its status to In Progress."
+      },
+      {
+        "activity": "While",
+        "description": "Executes contained activities while the condition is True"
+      },
+      {
+        "activity": "Write Line",
+        "description": "Displays the specified data or text in the Output panel."
+      },
+      {
+        "activity": "Write Storage Text",
+        "description": "Saves an input String into a file in the Orchestrator storage, in a certain bucket and at a certain path"
+      },
+      {
+        "activity": "Write Text File",
+        "description": "Copies a text and pastes it in a text file replacing any existing data in the file."
+      }
+    ]
+  },
+  {
+    "package": "UiPath.UIAutomation.Activities",
+    "activities": [
+      {
+        "activity": "Check App State",
+        "description": "Ensures the automated app is in a specific state, by verifying if a UI element exists or not. A set of user-defined actions are executed based on the detected state."
+      },
+      {
+        "activity": "Check Element",
+        "description": "Checks if an element is enabled or disabled."
+      },
+      {
+        "activity": "Check/Uncheck",
+        "description": "Used to check, uncheck, or toggle a checkbox."
+      },
+      {
+        "activity": "Click",
+        "description": "Clicks a specified UI element."
+      },
+      {
+        "activity": "Extract Table Data",
+        "description": "Extracts tabular data from a specified web page or application."
+      },
+      {
+        "activity": "Get Attribute",
+        "description": "Retrieves the value of a specified attribute of the indicated UI element."
+      },
+      {
+        "activity": "Get Text",
+        "description": "Extracts the text from a specified UI element."
+      },
+      {
+        "activity": "Get URL",
+        "description": "Returns the URL from the current browser."
+      },
+      {
+        "activity": "Go To URL",
+        "description": "Opens an URL in the current browser, either in a new tab or the current one."
+      },
+      {
+        "activity": "Highlight",
+        "description": "Visually highlights a specified UI element by surrounding it in a box."
+      },
+      {
+        "activity": "Hover",
+        "description": "Hovers the mouse over a specified UI element."
+      },
+      {
+        "activity": "Keyboard Shortcuts",
+        "description": "Sends one or more keyboard shortcuts to a UI element."
+      },
+      {
+        "activity": "Mouse Scroll",
+        "description": "Sends mouse scroll events to the specified UI element."
+      },
+      {
+        "activity": "Navigate Browser",
+        "description": "Allows basic navigation of the browser, like Go back, Go forward, Close, Refresh, Home."
+      },
+      {
+        "activity": "Select Item",
+        "description": "Selects an item from a drop-down list."
+      },
+      {
+        "activity": "Take Screenshot",
+        "description": "Takes a screenshot of an application or UI element."
+      },
+      {
+        "activity": "Type Into",
+        "description": "Enters text in a specified UI element, for example a text box."
+      },
+      {
+        "activity": "Use Browser",
+        "description": "Opens a web browser page to use in your automation."
+      }
+    ]
+  },
+  {
+    "package": "UiPath.WebAPI.Activities",
+    "activities": [
+      {
+        "activity": "Deserialize JSON",
+        "description": "Deserializes the Json string to a JObject object"
+      },
+      {
+        "activity": "Deserialize JSON Array",
+        "description": "Deserializes the Json array string to a JArray object"
+      },
+      {
+        "activity": "Deserialize XML",
+        "description": "Deserializes a XML string to a XDocument object"
+      },
+      {
+        "activity": "Get XML Node Attributes",
+        "description": "Gets the attributes of a XML Node"
+      },
+      {
+        "activity": "Get XML Nodes",
+        "description": "Deserializes a XML into a list of nodes"
+      },
+      {
+        "activity": "HTTP Request",
+        "description": "Composes a request to an endpoint url, executes it and returns the response in a string format, saving the resource if specified. It has authentication capabilities allowing communication with secured endpoints"
+      }
+    ]
+  },
+  {
+    "package": "Zendesk",
+    "activities": [
+      {
+        "activity": "Add Comment",
+        "description": "Add a comment to a ticket in Zendesk."
+      },
+      {
+        "activity": "Create Group",
+        "description": "Create a group in Zendesk."
+      },
+      {
+        "activity": "Create Ticket",
+        "description": "Create a ticket in Zendesk."
+      },
+      {
+        "activity": "Create User",
+        "description": "Create a user in Zendesk."
+      },
+      {
+        "activity": "Delete File",
+        "description": "Deletes a file to Zendesk."
+      },
+      {
+        "activity": "Delete record",
+        "description": "Deletes a record in Zendesk."
+      },
+      {
+        "activity": "Get a Ticket's Metrics",
+        "description": "Retrieve metrics for a ticket in Zendesk."
+      },
+      {
+        "activity": "Get record",
+        "description": "Retrieves a record in Zendesk."
+      },
+      {
+        "activity": "Insert record",
+        "description": "Inserts a record in Zendesk."
+      },
+      {
+        "activity": "List all Recent Tickets",
+        "description": "List all the recent tickets in Zendesk."
+      },
+      {
+        "activity": "List all records",
+        "description": "Lists all the records of an object in Zendesk."
+      },
+      {
+        "activity": "List all Ticket Comments",
+        "description": "Get the list of all comments on a ticket in Zendesk."
+      },
+      {
+        "activity": "List all Tickets",
+        "description": "List all the tickets in Zendesk."
+      },
+      {
+        "activity": "Replace Group",
+        "description": "Replace a group in Zendesk."
+      },
+      {
+        "activity": "Replace Ticket",
+        "description": "Replace a ticket record in Zendesk."
+      },
+      {
+        "activity": "Replace User",
+        "description": "Replace an existing user record in Zendesk."
+      },
+      {
+        "activity": "Search",
+        "description": "Search for group, user, ticket or organization."
+      },
+      {
+        "activity": "Update record",
+        "description": "Replaces a record in Zendesk."
+      },
+      {
+        "activity": "Upload File",
+        "description": "Uploads a file to Zendesk."
+      }
+    ]
+  },
+  {
+    "package": "Zoom",
+    "activities": [
+      {
+        "activity": "Create meeting invitation link",
+        "description": "Create a meeting invitation link that can be shared with a participant"
+      },
+      {
+        "activity": "Delete Record",
+        "description": "Delete a record in Zoom"
+      },
+      {
+        "activity": "Get Record",
+        "description": "Retrieves a record in Zoom"
+      },
+      {
+        "activity": "Get Recording",
+        "description": "Retrieves the download url link and chat transcript of your completed meetings that are saved in cloud only"
+      },
+      {
+        "activity": "Insert Record",
+        "description": "Insert a record in Zoom"
+      },
+      {
+        "activity": "Invite Meeting Registrant",
+        "description": "Invites a new meeting registrant to a meeting"
+      },
+      {
+        "activity": "Invoke Method",
+        "description": "Invokes a Zoom API method."
+      },
+      {
+        "activity": "List All Records",
+        "description": "List All Records in Zoom"
+      },
+      {
+        "activity": "Schedule One Time Meeting",
+        "description": "Schedules a one time meeting"
+      },
+      {
+        "activity": "Schedule Recurring Daily Meeting",
+        "description": "Schedules a recurring daily meeting with fixed time"
+      },
+      {
+        "activity": "Schedule Recurring Monthly Meeting",
+        "description": "Schedules a recurring monthly meeting with fixed time"
+      },
+      {
+        "activity": "Schedule Recurring Weekly Meeting",
+        "description": "Schedules a recurring weekly meeting with fixed time"
+      },
+      {
+        "activity": "Update Record",
+        "description": "Update a record in Zoom"
+      }
+    ]
+  }
+]
